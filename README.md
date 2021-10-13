@@ -18,10 +18,18 @@ FASE 1
 	pesquisa reprodutível 
 
 FASE 2
-    Métodos  baseados em projetos
-    Diário de bordo, Experimento da Coca-Cola, Blog /autoria, 
-    Questionário de avaliação,Gato de bigodes,Djalma
-    Pesquisa quanti-ação,kaHoot,Plicker,Pôster dos alunos ,Fotos,Métodos Paulo Freire
+    Métodos  baseados em projetos    
+    Diário de bordo,    
+	Experimento da Coca-Cola,   
+	Blog /autoria,   
+    Questionário de avaliação,   
+	Gato de bigodes,    
+	Djalma      
+    Pesquisa quanti-ação,
+	kaHoot,Plicker,    
+	Pôster dos alunos,   
+	Fotos,
+	Métodos Paulo Freire     
 
 
 
