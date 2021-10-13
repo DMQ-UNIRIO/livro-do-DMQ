@@ -8,12 +8,12 @@ Apresentação do R e Rcommander<br>
 
 Projeto 1 – Primeiros passos em um conjunto de dados com o R Commander.<br>
 Projeto 2 – Aquisição de dados do DATASUS, do IBGE, do INEP, do INPE, do TSE, do Tesouro Nacional e do CAGED.<br>
-Projeto 3 – Análise Fatorial/Análise de Cluster para avaliar o desmatamento do Amazonas com R.<br>
+Projeto 3 – Análise Fatorial e/ou análise de Cluster para avaliar o desmatamento do Amazonas com R.<br>
 Projeto 4 – Os fatores maternos associados ao baixo peso ao nascer <br>
-Projeto 5 – Analisando dados da COVID-19 com o R.<br>
+Projeto 5 – Análise de dados da COVID-19 com o R.<br>
 Projeto 6 – Fazendo mapas e estatística espacial com o R para ver as queimadas.<br>
 Projeto 7 – Controle da qualidade com o R: um exemplo aplicado.<br>
-Projeto 8 –  Descobrindo a diferença entre a coca e a coca light com o R: uma visita ao livro uma senhora toma chá.<br>
+Projeto 8 – Descobrindo a diferença entre a coca e a coca light com o R: uma visita ao livro uma senhora toma chá.<br>
 Projeto 9 – Mostrando a verdadeira cara da ditadura militar do Chile com o R.<br>
 Projeto 10 – Avaliando o Efeito do Plano Amostral com o R.  Avaliando a situação do Brasil com o pacote convey e survey.<br>
 Projeto 11 – Como sair do vermelho com R. Um estudo da Educação financeira e educação estatística com R.<br>
@@ -25,9 +25,8 @@ Projeto 13 – Machine Learning com R: Um estudo de ........<br>
 
 ----------------------------------------------------------------------------
 
-### Memória
+### Títulos dos próximos livros:<br>
 
-títulos dos próximos livros:<br>
  10 novos projetos de Estatística com o R<br>
  10 projetos inovadores  com o R<br>
  10 projetos Bayesianos com o R<br>
@@ -37,6 +36,10 @@ títulos dos próximos livros:<br>
  10 projetos de Estatística para engenheiros com o R<br>
 <br>
 <br>
+
+----------------------------------------------------------------------------
+
+### Memória
 
 13/10/2021
 
