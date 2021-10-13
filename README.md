@@ -9,14 +9,15 @@ Fazer um livro para as aulas.
 Fazer um livro para os alunos.
 
 Ter muito cuidado com o tamanho. vai ser lido pelos(as) alunos(as) no celular. 
+Fazer no bookdown
 
 
 ----------------------------------------------------------------------------
 
 FASE 1
-    Como fazer um artigo quantitativo 
-	pesquisa reprodutível 
-
+    Como fazer um artigo quantitativo          
+	pesquisa reprodutível       
+     
 FASE 2
     Métodos  baseados em projetos    
     Diário de bordo,    
