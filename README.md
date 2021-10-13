@@ -25,9 +25,16 @@ Projeto 13 – Machine Learning com R: Um estudo de ........<br>
 
 ----------------------------------------------------------------------------
 
-### Memoria
+### Memória
 
-título do novo livro: 10 novos projetos de Estatística com o R
+títulos dos próximos livros:<br>
+ 10 novos projetos de Estatística com o R<br>
+ 10 projetos inovadores  com o R<br>
+ 10 projetos Bayesianos com o R<br>
+ 10 projetos de Estatística na área da saúde com o R<br>
+ 10 projetos de Estatística na área das ciencias humanas e sociais com o R<br>
+ 10 projetos de Estatística Matemática com o R<br>
+ 10 projetos de Estatística para engenheiros com o R<br>
 <br>
 <br>
 
