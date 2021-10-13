@@ -11,6 +11,11 @@ Fazer um livro para os alunos.
 Ter muito cuidado com o tamanho. vai ser lido pelos(as) alunos(as) no celular. 
 Fazer no bookdown
 
+Fazer um material para o aluno   
+Fazer um material para o professor
+
+
+
 
 ----------------------------------------------------------------------------
 
