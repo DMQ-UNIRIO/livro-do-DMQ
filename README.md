@@ -1,6 +1,30 @@
-# Livro do DMQ
+# 23 Projetos de Estatística em sala de aula com o **R**
 
-## Memoria
+## Estrutura do livro
+
+Apresentação dos professores
+Apresentação da metodologia
+Apresentação do R e Rcommander
+
+Projeto 1 – Primeiros passos em um conjunto de dados com o R Commander.
+Projeto 2 – Aquisição de dados do DATASUS, do IBGE, do INEP, do INPE, do TSE, do Tesouro Nacional e do CAGED.
+Projeto 3 – Análise Fatorial/Análise de Cluster para avaliar o desmatamento do Amazonas com R.
+Projeto 4 – Os fatores maternos associados ao baixo peso ao nascer 
+Projeto 5 – Analisando dados da COVID-19 com o R.
+Projeto 6 – Fazendo mapas e estatística espacial com o R para ver as queimadas.
+Projeto 7 – Controle da qualidade com o R: um exemplo aplicado.
+Projeto 8 –  Descobrindo a diferença entre a coca e a coca light com o R: uma visita ao livro uma senhora toma chá.
+Projeto 9 – Mostrando a verdadeira cara da ditadura militar do Chile com o R.
+Projeto 10 – Avaliando o Efeito do Plano Amostral com o R.  Avaliando a situação do Brasil com o pacote convey e survey.
+Projeto 11 – Como sair do vermelho com R. Um estudo da Educação financeira e educação estatística com R.
+Projeto 12 – Análise Fatorial/Análise de Cluster para avaliar o desmatamento do Amazonas com R.
+Projeto 13 – Machine Learning com R: Um estudo de ........
+
+----------------------------------------------------------------------------
+
+### Memoria
+
+Fazer 10 novos projetos de Estatística com o R
 
 
 13/10/2021
@@ -9,7 +33,9 @@ Fazer um livro para as aulas.
 Fazer um livro para os alunos.
 
 Ter muito cuidado com o tamanho. vai ser lido pelos(as) alunos(as) no celular. 
-Fazer no bookdown
+
+
+Fazer no bookdown/
 
 Fazer um material para o aluno   
 Fazer um material para o professor
