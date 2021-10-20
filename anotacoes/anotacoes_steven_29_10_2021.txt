@@ -1,0 +1,29 @@
+“Livro para mostrar para o professor”
+“discussão legal”
+“fazer muita propaganda”
+
+Sobre esse livro
+
+Este é um livro destinado aos professores de estatística. Ele foi inicialmente desenvolvido como um workshop de 4 horas com todxs professores do departamento, mas agora se tornou um recurso que crescerá e mudará com o tempo como um livro vivo. Este livro tem como objetivo ensinar o seguinte:
+
+1. Introdução ao R e o R Commander
+2. Criação de banco de dados
+3. Uso de estatística em atividades
+4. Etc, etc, etc..... 
+
+file:///C:/Users/Hp/Google%20Drive%20(steven.ross@uniriotec.br)/2016/1%20semestre/Estatistica%20para%20Administracao/Caso%20RH%20Escola%20Oliveira.pdf
+
+fazer a propaganda do capitulo do livro
+vender a ideia para professores 
+gera discussão e permite aos alunos tal coisa
+Letramento estatístico é uma solução parcial
+
+A ideia do letramento estatístico ilumina esta área obscura da ciência. 
+Aqui você combina os conceitos estatísticos tradicionais com o seu uso.
+Aqui tempos uma mistura de sua conceitos estatísticos tradicionais (desvio-padrão) e com a dispersão/variabilidade dos seus dados(banco de dados), para criar algo que represente o conceito aplicado a um banco de dados.
+
+Imagine seu artigo - a introdução, métodos, resultados, discussão e conclusão, com a aplicação de todos os conceitos desenvolvidos e todas as estatísticas vinculadas 
+
+fazer a propaganda do capitulo do livro
+vender a ideia para professores 
+gera discussão e permite aos alunos tal coisa
