@@ -2,6 +2,12 @@
 “discussão legal”
 “fazer muita propaganda”
 
+
+-------------------------------------------------------------------------
+Zap da Tereza
+Bom dia Steven, você conseguiu pensar num caminho para descrever sua atividade? a ideia seria transformar em texto o que você costuma refletir e falar a respeito dela: Por exemplo, " para cursos de Administração e cência Política considero fundamental que os alunos tenham a oportunidade de utilizar a Estatística e a análise de dados na resolução de problemas com a formulação de propostas para abordá-los". Aqui será descrita um tipo de atividade com dados simulados e que pode ser adaptada para várias temáticas...."
+-------------------------------------------------------------------------
+
 Sobre esse livro
 
 Este é um livro destinado aos professores de estatística. Ele foi inicialmente desenvolvido como um workshop de 4 horas com todxs professores do departamento, mas agora se tornou um recurso que crescerá e mudará com o tempo como um livro vivo. Este livro tem como objetivo ensinar o seguinte:
@@ -27,3 +33,19 @@ Imagine seu artigo - a introdução, métodos, resultados, discussão e conclus�
 fazer a propaganda do capitulo do livro
 vender a ideia para professores 
 gera discussão e permite aos alunos tal coisa
+
+
+. You can also use FAIRsharing and re3data.org to search for a suitable repository – both provide a list of certified data repositories.
+
+For cases where there is no subject-specific repository, you may wish to consider some of the generalist data repository types below:
+
+    4TU.ResearchData
+    ANDS contributing repositories
+    Dryad Digital Repository
+    Figshare
+    Harvard Dataverse
+    Mendeley Data
+    Open Science Framework
+    Science Data Bank
+    Zenodo
+    Code Ocean (with code)
