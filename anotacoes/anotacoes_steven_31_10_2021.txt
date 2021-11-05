@@ -1,0 +1,52 @@
+
+Seis recomendações do GAISE
+1. Ensine o pensamento estatístico. 
+	Ensine estatística como um processo investigativo de resolução de problemas e tomada de decisão. 
+	Dê aos alunos experiência com pensamento multivariável. 
+2. Concentre-se na compreensão conceitual. 
+3. Integre dados reais com um contexto e propósito. 
+4. Fomentar a aprendizagem ativa. 
+5. Use tecnologia para explorar conceitos e analisar dados. 
+6. Use avaliações para melhorar e avaliar a aprendizagem dos alunos.
+
+Six recommendations from GAISE
+https://www.amstat.org/asa/files/pdfs/GAISE/GaiseCollege_Full.pdf
+1. Teach statistical thinking.  
+	Teach statistics as an investigative process of problem-solving and decision-making. 
+	Give students experience with multivariable thinking. 
+2.Focus on conceptual understanding. 
+3.Integrate real data with a context and purpose. 
+4.Foster active learning.  
+5.Use technology to explore concepts and analyze data. 
+6.Use assessments to improve and evaluate student learning. 
+
+Statistics Education Literature
+18
+• Nature of statistics is changing. Statistics curricula
+must adapt to this change. One change needed is
+inclusion of computational skills (Nolan & Lang,
+2010).
+• Instructors and institutions that have computational
+skills will be on demand and students who have
+these skills will get the jobs (Horton, 2015).
+• Some schools have already adopted “Data Sc
+
+Some schools have already adopted “Data Science
+in Statistics Curricula” and they included web
+scraping (Hardin et. al, 2015).
+
+
+Literatura de Educação Estatística
+• A natureza do método estatístico está mudando. Currículos estatísticos deve se adaptar a esta mudança. 
+
+Uma mudança necessária é inclusão de habilidades computacionais (Nolan & Lang,
+2010).
+• Instrutores e instituições que possuem computação
+habilidades estarão sob demanda e os alunos que têm
+essas habilidades vão conseguir os empregos (Horton, 2015).
+
+
+Algumas escolas já adotaram “Data Science
+em Currículos de Estatística ”e eles incluíram web
+raspagem (Hardin et. al, 2015).
+
