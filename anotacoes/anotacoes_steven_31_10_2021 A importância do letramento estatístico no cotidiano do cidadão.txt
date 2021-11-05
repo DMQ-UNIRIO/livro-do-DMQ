@@ -1,0 +1,24 @@
+A importância do letramento estatístico no cotidiano do cidadão
+
+Professor Dr. Raimundo J. Barbosa Brandão
+Vivemos numa sociedade onde o cidadão a todo instante é bombardeado com uma gama muito grande de informações, quer seja na língua natural ou outro tipo de representação e neste caso, ele precisa de conhecimentos e habilidades básicas em alguns ramos do conhecimento para saber analisar, interpretar e compreender estas informações para tomadas de decisão no seu cotidiano.
+Na atualidade, um conhecimento essencial a todo e qualquer cidadão, bem como aos profissionais das mais variadas áreas do saber, é o conhecimento estatístico.
+Uma habilidade fundamental para o cidadão interpretar e avaliar de forma crítica as informações estatísticas é o letramento estatístico. O indivíduo letrado estatisticamente necessita ainda de habilidades de comunicação para expressar suas opiniões e tomadas de decisões baseadas na adequada compreensão da analise dos dados. De acordo com Batanero, Burrill e Reading (2011) letramento estatístico vai além da aplicação da estatística de maneira mecânica, mas se constitui na habilidade de ler e interpretar dados de forma critica e o uso da Estatística evidencia em argumentos no cotidiano do cidadão comum, dos estudantes dos diversos níveis de ensino e dos profissionais em geral.
+Para Gal (2002) para uma pessoa adulta que vive numa sociedade industrial, o letramento estatístico é definido como: a) competência da pessoa para interpretar e avaliar criticamente a informação estatística, os argumentos relacionados aos dados ou aos fenômenos estocásticos, que podem se apresentar em qualquer contexto e, quando relevante, b) competência da pessoa para discutir ou comunicar suas reações para tais informações estatísticas, tais como seus entendimentos do significado da informação, suas opiniões sobre as implicações desta informação ou suas considerações acerca da aceitação das conclusões fornecidas (GAL,2002, p. 2-3).
+Há pessoas que se colocam em extremos opostos quanto às pesquisas estatísticas. Há aqueles que acreditam que a estatística é a arte de mentir e não acreditam nas pesquisas, enquanto isso, existem pessoas que acreditam que as previsões ou tendências estatísticas são extremamente confiáveis. Em ambos os pensamentos, as pessoas necessitam de melhor fundamentação para compreender as informações. Um exemplo bastante conhecido do cidadão brasileiro são as pesquisas de intenção de voto realizadas em épocas de eleições que ocorrem a cada dois anos. Para o eleitor avaliar criticamente uma pesquisa dessas é preciso compreender conceitos básicos de Estatística, tais como: população, amostras, tipos de amostragens adequadas à homogeneidade ou heterogeneidade da população, margem de erro, intervalo de confiança dentre outros.
+Os indivíduos compreendendo estes conceitos elementares em estatística terão melhores condições de compreender as informações, analisar e interpretar os resultados e tirar conclusões com mais segurança e tomar decisões com a menor margem de erro possível.
+Referências
+Batanero, C.; Burrill, G.; Reading, C. Estatísticas de Ensino de Matemática da Escola. Desafios para a Educação de Ensino e Professor: Um Estudo ICMI / IASE Conjunto pringer, 2011. 
+GAL, I. Adult’s Statistical literacy: Meanings, Components, Responsabilities. International Statistical Review, n. 70, 2002
+
+http://branndd.blogspot.com/2013/06/a-importancia-do-letramento-estatistico.html?fbclid=IwAR2NH-iREYdwvqJsccjTvsCHT6LgftZ5FPSIwfHIzmMqndKn8R_0nTr13p8
+
+METODOLOGIA DE ENSINO-APRENDIZAGEM
+1.Leituras e apresentações;
+2.Vídeos e tutoriais;
+3.Atelier de análise de dados com aprendizagem baseada em problema
+
+AVALIAÇÃO DA APRENDIZAGEM
+A  disciplina privilegia a avaliação processual e formativa, abordando a avaliação da aprendizagem como um “processo contínuo de apreciação e verificação da construção de conhecimento dos alunos, bem como acompanhamento, diagnóstico e melhoria do processo de ensino-aprendizagem”. (REGPG Cap. VI, Art. 106 –UFBA, 2014). 
+
+
