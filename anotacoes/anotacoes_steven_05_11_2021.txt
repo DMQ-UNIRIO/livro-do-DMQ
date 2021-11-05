@@ -31,7 +31,3 @@ aqui o aluno deverá construir um plano de  ação.
 4. Casos de ensino –  Exemplos Aplicados na estatística 
 4.1.Estudo da discriminação racial na empresa pública de processamento de dados,
 
-Banco de dados com comando R
-Resultados desenvolvidos pelos alunos com os comandos R
-“Mostrando com o R”
-AULA Roland Barthes
