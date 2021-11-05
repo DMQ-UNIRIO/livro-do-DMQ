@@ -41,6 +41,19 @@ Projeto 13 – Machine Learning com R: Um estudo de ........<br>
 
 ### Memória
 
+28/10/2021
+Bom dia a todas e todos, ontem na nossa reunião :
+1) Felipe, Steven e eu mostramos o andamento do nosso capítulo 
+2) O Bruno pediu opinião sobre duas propostas de atividades e decidiu por uma em co autoria com uma orientanda. 
+3) Discutimos um
+pouco sobre a atividade da Letícia. 
+4) Fizemos uma discussão e vericamos que terão capitulos cuja atividade será realizada com linhas de comando e outros que serão realizadas no Rcmdr .
+5) As atividades poderão indicar para o leitor as linhas de comando utilizadas ou os Prints do RCmdr 
+6) Que todos nós do DMQ entraremos no início como autores principais, mas que capitulos escritos com colaboradores ( alunos ou outro) serão bem- vindos.
+7) Que  a partir da semana que vem as reuniões vão mudar o horário e a proposta é que aconteçam nas quinta-feiras, das 16 h às 17 h 30. Todos podem?
+8) @ Lu Velasque vc pode participar de alguma para se inteirar do livro?
+9) @Vinicius, cd vc?
+
 13/10/2021
 
 Fazer um livro para as aulas. 
