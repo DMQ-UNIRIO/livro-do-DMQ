@@ -14,11 +14,11 @@ Dedicado ao Augusto Boal
 
 ### 1.1. Objetivo
 
-Este capítulo tem como objetivo apresentar um projeto de análise de dados baseado em caso de ensino com a liguagem de programação ***R**. 
+Este capítulo tem como objetivo apresentar um projeto de análise de dados baseado em caso de ensino com a liguagem de programação **R**. 
 
 ### 1.2. Habilidades a serem desenvolvidas
 
-A atividade envolve a defesa de uma posição pelo aluno sobre a situação problema. Assim, nessa ativiade, buscamos:
+A atividade envolve a defesa de uma posição pelo aluno sobre a situação problema. Assim, nessa atividade, buscamos:
 1.  a identificação da situação-problema  
 2.  a formulação de perguntas de pesquisa/hipóteses,   
 3.  análise exploratória inicial dos dados,    
@@ -39,34 +39,31 @@ Alunos das ciências humanas e sociais, com enfase nos cursos de Administração
 
 ## 3. Casos de ensino – Teoria,
 
-Casos para ensino em Administração Pública são relatos de situações da vida organizacional, construídos com propósitos educacionais específicos (Roesch,2007). 
-
-O método do caso para ensino em Administração é um material didático que não se popularizou na universidade brasileira e poucos professores utilizam casos-problema em sala de aula. (Roesch,2007)
-
-a estrutura e o processo de redação de casos para ensino fundamenta-se na em 3  grandes pilares: 
+Casos para ensino em Administração Pública são relatos de situações da vida organizacional, construídos com propósitos educacionais específicos (Roesch,2007). Assim, nesse caso, a estrutura e o processo de redação de casos para ensino fundamenta-se em 03 (três) grandes pilares: 
 
 * o desenvolvimento do caso-problema e 
 * a narração da contextualização da forma interessante
 * o conflito entre os atores/personagens
 
-O caso-problema não é apenas a descrição de eventos ou problemas; contém uma história. Por isso julgo necessário recorrer à literatura da ficção e da não-ficção para resolver os problemas narrativos decorrentes da estrutura proposta pelo caso-problema (Roesch,2007).
+O caso-problema não é apenas a descrição de eventos ou problema. Ele contém uma história. Por isso, apesar que criar um bom caso de estudo devemos recorrer à literatura de ficção. Pessoalmente, eu gosto muito da ideia de estudar teatro como  Shakespeare, Agusto Boal e Grotowski para construir casos de estudos e resolver os problemas narrativos decorrentes da estrutura proposta pelo caso-problema.
 
-Assim, num caso, o relato da situação-problema pode ser orientado por perguntas, tais como: Qual o problema? Quais as partes envolvidas? Que reações estão sendo manifestadas? Que soluções estão sendo propostas? Que resultados foram atingidos? Que novos problemas se originaram de tais soluções?
+Assim, em um caso, o relato da situação-problema pode ser orientado por perguntas, tais como: Qual o problema? Quais as partes envolvidas? Que reações estão sendo manifestadas? Que soluções estão sendo propostas? Que resultados foram atingidos? Que novos problemas se originaram de tais soluções? (Roesch,2007)
 
-"as controvérsias que  proporcionam diferentes  interpretações"  
+O método do caso para ensino em Administração é um material didático que não se popularizou na universidade brasileira e poucos professores utilizam casos-problema em sala de aula. (Roesch,2007)
 
 ### 3.1.	O conflito entre os personagens e o problema de pesquisa
 
-Aqui devemos ter pelo menos duas posições antagônicas. Devemos ter um conflito entre os os dois personagens do caso de estudo. Buscamos com isso que o aluno se posicione sobre o assunto fundamentando sua análise estatística.
+"as controvérsias que proporcionam diferentes interpretações"  
+
+Aqui devemos ter pelo menos duas posições antagônicas. Devemos ter um conflito entre os os dois personagens do caso de estudo. Buscamos com isso que o aluno se posicione por uma das posições sobre o assunto. Esse posicionamento deverá ser fundamentado pela análise estatística.
 
 ## 3.2.	A autoria do relatório e o letramento estatístico
 
-Aqui o aluno tem que escrever um parecer fundamentado na análise estatística para algum personagem do caso de ensino. geralmente, o personagem é o(a) seu chefe.
+Aqui o aluno tem que escrever um parecer fundamentado na análise estatística para algum personagem do caso de ensino. geralmente, o personagem é o(a) seu chefe. Desse modo, busca-se proporcionar ao alunx  uma  viagem  de  descoberta pelo metodo cientifico para fundamentar a sua anáilse.
 
-assim, busca-se proporcionar ao alunx  uma  viagem  de  descoberta pelo
-metodo cientifico para fundamentar a sua anáilse
+Nesse sentido, ao final do caso de esuno 
 
-## 3.3.	O parecer/posicionamento do alunxs
+.	O parecer/posicionamento do alunxs
 
 aqui o aluno deverá construir um plano de  ação.
 
@@ -79,7 +76,22 @@ aqui o aluno deverá construir um plano de  ação.
 ### 4.2.	Estudo da discriminação racial na Escola Oliveira, 
 ### 4.3.	Estudo da desigualdade de gênero dos candidatos a vereador(a) no município de varre-e-sai
 
+
+### 5. *exemplos de relatorios de alunxs*
+com essa atividade, os alunos conseguiram fazer isso aquilo e isso outro
+falar que será um banco de dados 
+
+
+dados<- data.frame(sexo =c(rep("masculino",50),rep("feminino",50)),
+                  idade=rnorm(1000,50),
+                  anos_de_empresas=idade-10)
+
+
+
 ## 5. Conclusão
+
+
+
 
 no futuro, buscarei colocar algumas variaveis irrelevantes para que o aluno possa 
  separar  variáveis pouco importantes de variáveis  mais  fundamentais
