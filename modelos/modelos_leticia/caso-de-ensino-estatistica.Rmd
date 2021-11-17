@@ -72,6 +72,19 @@ aqui o aluno deverá construir um plano de  ação.
 ### 4.1.	Estudo da discriminação racial na empresa pública de processamento de dados, 
 
 
+O primeiro passo é a importação da base de dados.
+
+```{r, eval=FALSE}
+banco_de_dados <- read_excel('Escola_Oliveira.xlsx')
+```
+
+Depois disso uma etapa importante é inspecionar os dados. Isso pode ser facilmente observado no R com a função *str*.
+
+```{r, eval=FALSE}
+str(banco_de_dados)
+```
+ 
+Aqui, os alunxs devem perceber que há um erro no banco de dados. Temos variáveis qualitativas sendo tratadas como quantitativas. para corrigí-las devemos usar uma das duas estratégias abaixo.
  
 ### 4.2.	Estudo da discriminação racial na Escola Oliveira, 
 ### 4.3.	Estudo da desigualdade de gênero dos candidatos a vereador(a) no município de varre-e-sai
