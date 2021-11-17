@@ -77,19 +77,88 @@ aqui o aluno deverá construir um plano de  ação.
 O primeiro passo é a importação da base de dados.
 
 ```{r, eval=FALSE}
-banco_de_dados <- read_excel('Escola_Oliveira.xlsx')
+#library(readxl)
+#banco_de_dados <- read_excel('Escola_Oliveira.xlsx')
+
+banco_de_dados <- read.csv2('https://raw.githubusercontent.com/DATAUNIRIO/Base_de_dados/master/Escola_Oliveira_p_Livro_DMQ.csv')
+
+
+
 ```
 
-Depois disso uma etapa importante é inspecionar os dados. Isso pode ser facilmente observado no R com a função *str*.
+Depois disso uma etapa importante é inspecionar os dados. Isso pode ser facilmente observado no R com a função *str* e observando o dicionário de dados ( codebook).
 
+# Estrutura de dados
 ```{r, eval=FALSE}
 str(banco_de_dados)
 ```
  
-Aqui, os alunxs devem perceber que há um erro no banco de dados. Temos variáveis qualitativas sendo tratadas como quantitativas. para corrigí-las devemos usar uma das duas estratégias abaixo.
-
-
+```{r}
+dicionario <- tibble::tibble(
+Nome_da_variavel=c('Grau de Pagamento','Gênero','Raça','Casado','Idade','Anos trabalho','Desempenho'),
+Descricao_da_variavel=c(
+	'1 = Professor Assistente (Grau 1) \n 
+2 = Professor Adjunto (Grau 2)  \n
+3 = Professor Titular (Grau 3)','0 = Feminino\n 1 = Masculino','1 = Minoria (preto/pardo/indígena), \n 0 = Branco','0 = Não,\n 1 = Sim','Anos de idade do funcionário','Anos de trabalho como representante de serviços na ServPro','Avaliação de desempenho do professor (escala de 0 a 10)'))
+	
+```
+```{r, echo=FALSE}
+library(flextable)
+flextable(dicionario)
+```
  
+ 
+Aqui, os alunxs devem perceber que há um erro no banco de dados. Temos variáveis qualitativas sendo tratadas como quantitativas. para corrigí-las devemos usar uma das estratégias abaixo. Todas essas estratégias são aceitaveis. O uso dessas estratégias (básica, intermediária, avançada) dependem do nível de letramento de programação R cada alunx.
+
+```{r, eval=FALSE}
+# nível básico
+banco_de_dados$sexo<-as.factor(banco_de_dados$sexo)
+banco_de_dados$raca<-as.factor(banco_de_dados$raca)
+banco_de_dados$casado<-as.factor(banco_de_dados$casado)
+banco_de_dados$grau_pagamento<-as.factor(banco_de_dados$grau_pagamento)
+
+```
+
+
+```{r, eval=FALSE}
+
+# nível intermediário
+banco_de_dados$sexo<-ifelse(banco_de_dados$sexo==0,'Feminino',
+                     ifelse(banco_de_dados$sexo==1,'Masculino',NA))
+
+banco_de_dados$raca<-ifelse(banco_de_dados$raca==0,'Branco',
+                     ifelse(banco_de_dados$raca==1,'Minoria',NA))
+  
+banco_de_dados$casado<-ifelse(banco_de_dados$casado==0,'Não',
+                       ifelse(banco_de_dados$casado==1,'Sim',NA))                         
+
+```
+
+```{r}
+# nível avançado com uso da função case_when 
+library(dplyr)
+banco_de_dados<-banco_de_dados %>%
+  mutate(
+    grau_pagamento = case_when(
+      grau_pagamento == 1 ~ "Professor Assistente (Grau 1)",
+      grau_pagamento == 2 ~ "Professor Assistente (Grau 2)",
+      grau_pagamento == 3 ~ "Professor Assistente (Grau 3)",
+      TRUE                      ~ "outra situação"))
+
+
+```
+
+Se você tiver mais tempo do que um semestre para trabalhar com os alunos, sugiro trocar o registro do salário da linha 90 (id=90). A trocar do salário de R$ 2.710,00 para R$ 27.100,00. Aqui você poderia discutir um pouco mais do tratamento das variáveis, *outliers*, erro de digitação, registros duplicados entre outros elementos da fase de limpeza/higienização dos dados. O código para isso seria algo do tipo
+
+```{r, eval=FALSE}
+# discussao do outlier
+banco_de_dados$salario[90]<- 27100
+# ausencia de outlier
+banco_de_dados$salario[90]<- 2710
+
+```
+
+
 ### 4.2.	Estudo da discriminação racial na Escola Oliveira, 
 ### 4.3.	Estudo da desigualdade de gênero dos candidatos a vereador(a) no município de varre-e-sai
 
