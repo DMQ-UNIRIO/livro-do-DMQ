@@ -168,11 +168,8 @@ com essa atividade, os alunos conseguiram fazer isso aquilo e isso outro
 falar que será um banco de dados 
 
 
-dados<- data.frame(sexo =c(rep("masculino",50),rep("feminino",50)),
-                  idade=rnorm(1000,50),
-                  anos_de_empresas=idade-10)
 
-
+[https://dataunirio.github.io/Trabalhos_alunos_UNIRIO/avaliacao_da_disciplina/index.html](https://dataunirio.github.io/Trabalhos_alunos_UNIRIO/avaliacao_da_disciplina/index.html)
 
 ## 5. Conclusão
 
