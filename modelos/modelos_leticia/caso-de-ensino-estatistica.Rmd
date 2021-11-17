@@ -5,7 +5,10 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE,
+                      message = FALSE,
+                      comment = NA)
 ```
 
 ## 1. Introdução
@@ -76,7 +79,7 @@ aqui o aluno deverá construir um plano de  ação.
 
 O primeiro passo é a importação da base de dados.
 
-```{r, eval=FALSE}
+```{r}
 #library(readxl)
 #banco_de_dados <- read_excel('Escola_Oliveira.xlsx')
 
@@ -102,6 +105,8 @@ Descricao_da_variavel=c(
 3 = Professor Titular (Grau 3)','0 = Feminino\n 1 = Masculino','1 = Minoria (preto/pardo/indígena), \n 0 = Branco','0 = Não,\n 1 = Sim','Anos de idade do funcionário','Anos de trabalho como representante de serviços na ServPro','Avaliação de desempenho do professor (escala de 0 a 10)'))
 	
 ```
+
+
 ```{r, echo=FALSE}
 library(flextable)
 flextable(dicionario)
@@ -120,7 +125,7 @@ banco_de_dados$grau_pagamento<-as.factor(banco_de_dados$grau_pagamento)
 ```
 
 
-```{r, eval=FALSE}
+```{r}
 
 # nível intermediário
 banco_de_dados$sexo<-ifelse(banco_de_dados$sexo==0,'Feminino',
@@ -133,6 +138,8 @@ banco_de_dados$casado<-ifelse(banco_de_dados$casado==0,'Não',
                        ifelse(banco_de_dados$casado==1,'Sim',NA))                         
 
 ```
+
+
 
 ```{r}
 # nível avançado com uso da função case_when 
