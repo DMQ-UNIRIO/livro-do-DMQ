@@ -13,9 +13,59 @@ knitr::opts_chunk$set(echo = TRUE,
 
 ## 1. Introdução
 
-Dedicado ao Augusto Boal 
+### Dedicado ao Augusto Boal e ao DMQ
 
-> cada turma é uma nação diferente!
+
+Esse texto é dedicado aos estudantes de estatística da UNIRIO e aos meus (espetaculares) colegas de departamento. 
+
+Minha convivência com eles me ajudou a perceber que um curso de estatística para uma turma de administração pública precisa ser muito mais do que fórmulas, questões de livros e aplicação de provas.
+
+Essa minha experiência com eles me diz que há uma necessidade real de mostrar como a disciplina de estatística é uma parte essencial do currículo profissional dos novos gestores públicos. Isso me fez tentar traduzir as fórmulas matemática da área da estatística em objetivos pedagógicos aplicados. Assim, esse texto é o resultado da minha abordagem pessoal aos conceitos desenvolvidos no coração do Departamento de Métodos Quantitativos da UNIRIO. 
+
+Começo dizendo que tentei mudar o modo que a estatística fosse percebida pelos estudantes. Tentei fazê-la de forma totalmente aplicada. Tentei mostrá-la como uma importante ferramenta da administração pública. 
+
+O objetivo não era conseguir encontrar o valor correto de uma conta/calculo de estatística, mas sim utilizar o método quantitativo como um instrumento para orientar o processo de tomada de decisão na administração pública. Acredito que desse modo o estudante não só aprenderá a estatística, mas deverá preservar o pensamento estocástico e reconhecer como e quando aplicar esses conceitos na sua vida profissional décadas depois de passar por esse semestre.
+
+#### O funcionário Johnnson e o professor João 
+
+Os casos apresentado aqui foram desenvolvidos a partir do livro de PETERS e GRAY (1994). Este livro apresenta dezoito casos de problemas de gestão resolvidos com a estatística e deve ser visto como a fonte primária (e complementar) desse texto. Só para dar um exemplo, o protagonista Johnson do caso de discriminação racial corporativa (*employee discrimination*) foi traduzido em um caso de racismo do professor João da Escola Oliveira Ltda.
+
+
+#### O valor correto inútil de uma conta/calculo de estatística que o computador faz para gente.
+
+
+Os livros didáticos tradicionais de estatística buscam enfatizar o processo de encontrar a resposta certa em um determinado intervalo de 95%/99% confiança. Muitas vezes, essa abordagem não tem nenhum contexto do motivo para a construção desse intervalo. Esse tipo de método tende a valoriza o calculo e a memorização das formulas. O objetivo geralmente é a aplicação correta de procedimentos estatísticos para encontrar a resposta numérica correta. Neste caso, o limite inferior e superior do intervalo de confiança. Você sabe o que estou dizendo. Todos nós passamos por isso como alunos e professores.
+
+#### A famosa pergunta: PARA QUE TENHO QUE APRENDER ISSO?
+
+Acredito que esse destaque todo na busca pela resposta numérica correta falha com a importante contribuição que a estatistica pode dar ao processo de tomada de decisão pelo gestor público. PETERS e GRAY (1994) afirmam que se buscarmos a resposta correta do estudante, falhamos em entender o motivo pelo qual o conhecimento estatístico pode ser útil na area de administração (como conhecimento estatístico deve ser utilizado). Também dizem que falhamos em entender como esse conhecimento  pode ajudar no processo de tomada de decisão em situações administrativas do mundo real. E completam: falhamos em mostrar o valor do conhecimento estatístico e isso sempre levará ao alunx a questionar a relevancia da estatística para a sua área (não poderia concorda mais com eles). 
+
+
+#### Para além da estatística
+
+No lugar de encontrar a resposta numérica correta em uma prova de estatistica, o uso desta metodologia permite ao aluno não só estudar a Estatística em si, mas também aprender a programar na linguagem R, bem como adquirir experiência em uso de bancos de dados, planilhas, apresentações, e arquivos Markdown (arquivos para uso na web). Acredito que assim ele estará mais preparado para a vida cidadã, vida academica, e para a sua vida profissional.
+
+> Entender Estatística é essencial aos cidadãos das sociedades atuais: para ser crítico em relação à informação disponível na sociedade, para entender e comunicar com base nessa informação, mas, também, para tomar decisões, uma vez que uma grande parte da organização dessas mesmas sociedades tem por base esses conhecimentos. (Shaughnessy, 1992, 1996).
+
+
+Em resumo, a vivência com os professores do DMQ e o livro do PETERS e GRAY (1994) me fizeram perceber que seria muito interessante abrir mão da aplicação do calculo numérico correto em uma prova em favor do conceito e da interpretação da estatística no mundo real.
+
+O prof. Pimentel da escola de informatica da UNIRIO uma vez afirmou o método tradicional por prova
+valoriza uma leitura mecânica. Isto é, porque assim o desafio passa a ser a memorização do texto. Se o estudante consegue decorar, terá respondido ao desafio da disciplina.
+
+#### Autoria em estatística
+
+Busco promover o letramento em Estatística, isto é,desenvolver a capacidade de interpretar e de criar discursos em estatística para atuar no mundo.
+
+Praticar o diálogo EstatADM
+
+oportunizar diálogos para desenvolver a linguagem e o pensamento em Estatística, empregar vocabulário da linguagem Estatística
+
+Interpretar-avaliar discursos em estatística (as análises mentem, omitem, enviesam?)
+
+Utilizar os conceitos de estatística e de probabilidade para criar o discurso em estatística. 
+
+
 
 ### 1.1. Objetivo
 
@@ -28,7 +78,7 @@ A atividade envolve a defesa de uma posição pelo aluno sobre a situação prob
 2.  a formulação de perguntas de pesquisa/hipóteses,   
 3.  análise exploratória inicial dos dados,    
 4.  depuração de erros na base de dados/busca por outliers/limpeza e higenização dos dados, 5.  refazer a análise exploratória após a limpeza dos dados,    
-6.  escolha de um teste de hipóteses adequado    
+6.  escolha de um teste de hipóteses adequado,    
 7.  avaliação das condições minimas para o teste de hipoteses    
 8.  aplicação de testes de hipóteses/ realização do procedimentos     
 9.  interpretação dos resultados.    
@@ -37,6 +87,8 @@ A atividade envolve a defesa de uma posição pelo aluno sobre a situação prob
 ### 1.3. Público-alvo
 
 Alunos das ciências humanas e sociais, com enfase nos cursos de Administração Pública e de Empresas, Ciencia Política, Economia e Sociologia.
+
+> cada turma é uma nação diferente!
 
 ## 2. Os objetivos pedagógicos.
 ## 2.1. Os objetivos pedagógicos.
@@ -102,7 +154,7 @@ Nome_da_variavel=c('Grau de Pagamento','Gênero','Raça','Casado','Idade','Anos 
 Descricao_da_variavel=c(
 	'1 = Professor Assistente (Grau 1) \n 
 2 = Professor Adjunto (Grau 2)  \n
-3 = Professor Titular (Grau 3)','0 = Feminino\n 1 = Masculino','1 = Minoria (preto/pardo/indígena), \n 0 = Branco','0 = Não,\n 1 = Sim','Anos de idade do funcionário','Anos de trabalho como representante de serviços na ServPro','Avaliação de desempenho do professor (escala de 0 a 10)'))
+3 = Professor Titular (Grau 3)','0 = Feminino\n 1 = Masculino','1 = Não Branco/Minoria (preto/pardo/indígena), \n 0 = Branco','0 = Não,\n 1 = Sim','Anos de idade do funcionário','Anos de trabalho como representante de serviços na ServPro','Avaliação de desempenho do professor (escala de 0 a 10)'))
 	
 ```
 

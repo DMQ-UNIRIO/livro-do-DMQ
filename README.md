@@ -40,14 +40,27 @@ Projeto 13 – Machine Learning com R: Um estudo de ........<br>
 ----------------------------------------------------------------------------
 
 ### Memória
+
+19/11/2021
+COLOCAR: 
+link para video do youtube da Leticia
+colocar comentario geral meu sobre eles a partir da avaliacao deles
+enfatizar NA e datas
+colocar a data de entrada em anos de trabalho
+Minuria Não Branco 
+
+
 05/11/2021
 COLOCAR: 
-Banco de dados com comando R  
-Resultados desenvolvidos pelos alunos com os comandos R  
+Criar um banco de dados com comando R  
+Resultados desenvolvidos pelos alunxs com os comandos R  
 “Mostrando com o R”  
 
-BUSCAR
+BUSCAR Livro
 AULA Roland Barthes
+
+
+
 
 28/10/2021
 Bom dia a todas e todos, ontem na nossa reunião :
