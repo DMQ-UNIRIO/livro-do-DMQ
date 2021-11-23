@@ -15,31 +15,36 @@ knitr::opts_chunk$set(echo = TRUE,
 
 ### Dedicado ao Augusto Boal e ao DMQ
 
+> A escola é o lugar para a construção e vivência de experiencias e valores significativos (Leandro Karnal).
 
-Esse texto é dedicado aos estudantes de estatística da UNIRIO e aos meus (espetaculares) colegas de departamento. 
+Esse texto é dedicado aos estudantes de estatística da UNIRIO e aos meus (espetaculares) colegas de departamento.
 
 Minha convivência com eles me ajudou a perceber que um curso de estatística para uma turma de administração pública precisa ser muito mais do que fórmulas, questões de livros e aplicação de provas.
 
-Essa minha experiência com eles me diz que há uma necessidade real de mostrar como a disciplina de estatística é uma parte essencial do currículo profissional dos novos gestores públicos. Isso me fez tentar traduzir as fórmulas matemática da área da estatística em objetivos pedagógicos aplicados. Assim, esse texto é o resultado da minha abordagem pessoal aos conceitos desenvolvidos no coração do Departamento de Métodos Quantitativos da UNIRIO. 
+Essa minha experiência com eles me diz que há uma necessidade real de mostrar como a disciplina de estatística é uma parte essencial do currículo profissional dos novos gestores públicos. Isso me fez tentar traduzir as fórmulas matemática da área da estatística em objetivos pedagógicos aplicados. Assim, esse texto é o resultado da minha abordagem pessoal aos conceitos desenvolvidos no coração do Departamento de Métodos Quantitativos da UNIRIO.
 
-Começo dizendo que tentei mudar o modo que a estatística fosse percebida pelos estudantes. Tentei fazê-la de forma totalmente aplicada. Tentei mostrá-la como uma importante ferramenta da administração pública. 
+Começo dizendo que tentei mudar o modo que a estatística fosse percebida pelos estudantes. Tentei fazê-la de forma totalmente aplicada. Tentei mostrá-la como uma importante ferramenta da administração pública.
 
 O objetivo não era conseguir encontrar o valor correto de uma conta/calculo de estatística, mas sim utilizar o método quantitativo como um instrumento para orientar o processo de tomada de decisão na administração pública. Acredito que desse modo o estudante não só aprenderá a estatística, mas deverá preservar o pensamento estocástico e reconhecer como e quando aplicar esses conceitos na sua vida profissional décadas depois de passar por esse semestre.
 
-#### O funcionário Johnnson e o professor João 
+#### O funcionário Johnnson e o professor João
 
 Os casos apresentado aqui foram desenvolvidos a partir do livro de PETERS e GRAY (1994). Este livro apresenta dezoito casos de problemas de gestão resolvidos com a estatística e deve ser visto como a fonte primária (e complementar) desse texto. Só para dar um exemplo, o protagonista Johnson do caso de discriminação racial corporativa (*employee discrimination*) foi traduzido em um caso de racismo do professor João da Escola Oliveira Ltda.
 
-
+```{=html}
+<!--
 #### O valor correto inútil de uma conta/calculo de estatística que o computador faz para gente.
+-->
+```
+#### O valor correto da aplicação das formulas de estatística.
 
-
-Os livros didáticos tradicionais de estatística buscam enfatizar o processo de encontrar a resposta certa em um determinado intervalo de 95%/99% confiança. Muitas vezes, essa abordagem não tem nenhum contexto do motivo para a construção desse intervalo. Esse tipo de método tende a valoriza o calculo e a memorização das formulas. O objetivo geralmente é a aplicação correta de procedimentos estatísticos para encontrar a resposta numérica correta. Neste caso, o limite inferior e superior do intervalo de confiança. Você sabe o que estou dizendo. Todos nós passamos por isso como alunos e professores.
+Os livros didáticos tradicionais de estatística buscam enfatizar o processo de encontrar a resposta certa em um determinado intervalo de confiança (95%/99% de confiança). Muitas vezes, essa abordagem não tem nenhum contexto do motivo para a construção desse intervalo. Esse tipo de método tende a valoriza o calculo e a memorização das formulas. O objetivo geralmente é a aplicação correta de procedimentos estatísticos para encontrar a resposta numérica correta. Neste caso, o limite inferior e superior do intervalo de confiança. Você sabe o que estou dizendo. Todos nós passamos por isso como alunos e professores.
 
 #### A famosa pergunta: PARA QUE TENHO QUE APRENDER ISSO?
 
-Acredito que esse destaque todo na busca pela resposta numérica correta falha com a importante contribuição que a estatistica pode dar ao processo de tomada de decisão pelo gestor público. PETERS e GRAY (1994) afirmam que se buscarmos a resposta correta do estudante, falhamos em entender o motivo pelo qual o conhecimento estatístico pode ser útil na area de administração (como conhecimento estatístico deve ser utilizado). Também dizem que falhamos em entender como esse conhecimento  pode ajudar no processo de tomada de decisão em situações administrativas do mundo real. E completam: falhamos em mostrar o valor do conhecimento estatístico e isso sempre levará ao alunx a questionar a relevancia da estatística para a sua área (não poderia concorda mais com eles). 
+> I have no data yet. It is a capital mistake to theorize before one has data.(Sherlock Holmes)
 
+Acredito que esse destaque todo na busca pela resposta numérica correta falha com a importante contribuição que a estatistica pode dar ao processo de tomada de decisão pelo gestor público. PETERS e GRAY (1994) afirmam que se buscarmos a resposta correta do estudante, falhamos em entender o motivo pelo qual o conhecimento estatístico pode ser útil na area de administração (como conhecimento estatístico deve ser utilizado). Também dizem que falhamos em entender como esse conhecimento pode ajudar no processo de tomada de decisão em situações administrativas do mundo real. E completam: falhamos em mostrar o valor do conhecimento estatístico e isso sempre levará ao alunx a questionar a relevancia da estatística para a sua área (não poderia concorda mais com eles).
 
 #### Para além da estatística
 
@@ -47,11 +52,9 @@ No lugar de encontrar a resposta numérica correta em uma prova de estatistica, 
 
 > Entender Estatística é essencial aos cidadãos das sociedades atuais: para ser crítico em relação à informação disponível na sociedade, para entender e comunicar com base nessa informação, mas, também, para tomar decisões, uma vez que uma grande parte da organização dessas mesmas sociedades tem por base esses conhecimentos. (Shaughnessy, 1992, 1996).
 
-
 Em resumo, a vivência com os professores do DMQ e o livro do PETERS e GRAY (1994) me fizeram perceber que seria muito interessante abrir mão da aplicação do calculo numérico correto em uma prova em favor do conceito e da interpretação da estatística no mundo real.
 
-O prof. Pimentel da escola de informatica da UNIRIO uma vez afirmou o método tradicional por prova
-valoriza uma leitura mecânica. Isto é, porque assim o desafio passa a ser a memorização do texto. Se o estudante consegue decorar, terá respondido ao desafio da disciplina.
+O prof. Pimentel da escola de informatica da UNIRIO uma vez afirmou o método tradicional por prova valoriza uma leitura mecânica. Isto é, porque assim o desafio passa a ser a memorização do texto. Se o estudante consegue decorar, terá respondido ao desafio da disciplina.
 
 #### Autoria em estatística
 
@@ -63,26 +66,27 @@ oportunizar diálogos para desenvolver a linguagem e o pensamento em Estatístic
 
 Interpretar-avaliar discursos em estatística (as análises mentem, omitem, enviesam?)
 
-Utilizar os conceitos de estatística e de probabilidade para criar o discurso em estatística. 
+Utilizar os conceitos de estatística e de probabilidade para criar o discurso em estatística.
 
+Aqui a linguagem de programação R deixa de ser apenas um técnica e passa a ser parte do processo de construção do conceito.
 
+A pergunta da prova geralmente é parecida com à dada em sala de aula. Apesar de apenas trabalhar com a memoria, o método tem um certo prestigio com os alunos. **a prova seria exatamente o esperado**. Fácil, seguro e quase inutil na minha visão. Ninguem achava aquelas informacoes uteis ou interessantes (Leandro Karnal p. 54).
 
 ### 1.1. Objetivo
 
-Este capítulo tem como objetivo apresentar um projeto de análise de dados baseado em caso de ensino com a liguagem de programação **R**. 
+Este capítulo tem como objetivo apresentar um projeto de análise de dados baseado em caso de ensino com a liguagem de programação **R**.
 
 ### 1.2. Habilidades a serem desenvolvidas
 
-A atividade envolve a defesa de uma posição pelo aluno sobre a situação problema. Assim, nessa atividade, buscamos:
-1.  a identificação da situação-problema  
-2.  a formulação de perguntas de pesquisa/hipóteses,   
-3.  análise exploratória inicial dos dados,    
-4.  depuração de erros na base de dados/busca por outliers/limpeza e higenização dos dados, 5.  refazer a análise exploratória após a limpeza dos dados,    
-6.  escolha de um teste de hipóteses adequado,    
-7.  avaliação das condições minimas para o teste de hipoteses    
-8.  aplicação de testes de hipóteses/ realização do procedimentos     
-9.  interpretação dos resultados.    
-10.  escrita de um parecer com base no teste de hipoteses 
+A atividade envolve a defesa de uma posição pelo aluno sobre a situação problema. Assim, nessa atividade, buscamos: 1. a identificação da situação-problema\
+2. a formulação de perguntas de pesquisa/hipóteses,\
+3. análise exploratória inicial dos dados,\
+4. depuração de erros na base de dados/busca por outliers/limpeza e higenização dos dados, 5. refazer a análise exploratória após a limpeza dos dados,\
+6. escolha de um teste de hipóteses adequado,\
+7. avaliação das condições minimas para o teste de hipoteses\
+8. aplicação de testes de hipóteses/ realização do procedimentos\
+9. interpretação dos resultados.\
+10. escrita de um parecer com base no teste de hipoteses
 
 ### 1.3. Público-alvo
 
@@ -91,43 +95,44 @@ Alunos das ciências humanas e sociais, com enfase nos cursos de Administração
 > cada turma é uma nação diferente!
 
 ## 2. Os objetivos pedagógicos.
+
 ## 2.1. Os objetivos pedagógicos.
+
 ## 2.2 Sequencia didática
 
-## 3. Casos de ensino – Teoria,
+## 3. Casos de ensino -- Teoria,
 
-Casos para ensino em Administração Pública são relatos de situações da vida organizacional, construídos com propósitos educacionais específicos (Roesch,2007). Assim, nesse caso, a estrutura e o processo de redação de casos para ensino fundamenta-se em 03 (três) grandes pilares: 
+Casos para ensino em Administração Pública são relatos de situações da vida organizacional, construídos com propósitos educacionais específicos (Roesch,2007). Assim, nesse caso, a estrutura e o processo de redação de casos para ensino fundamenta-se em 03 (três) grandes pilares:
 
-* o desenvolvimento do caso-problema e 
-* a narração da contextualização da forma interessante
-* o conflito entre os atores/personagens
+-   o desenvolvimento do caso-problema e
+-   a narração da contextualização da forma interessante
+-   o conflito entre os atores/personagens
 
-O caso-problema não é apenas a descrição de eventos ou problema. Ele contém uma história. Por isso, apesar que criar um bom caso de estudo devemos recorrer à literatura de ficção. Pessoalmente, eu gosto muito da ideia de estudar teatro como  Shakespeare, Agusto Boal e Grotowski para construir casos de estudos e resolver os problemas narrativos decorrentes da estrutura proposta pelo caso-problema.
+O caso-problema não é apenas a descrição de eventos ou problema. Ele contém uma história. Por isso, apesar que criar um bom caso de estudo devemos recorrer à literatura de ficção. Pessoalmente, eu gosto muito da ideia de estudar teatro como Shakespeare, Agusto Boal e Grotowski para construir casos de estudos e resolver os problemas narrativos decorrentes da estrutura proposta pelo caso-problema.
 
 Assim, em um caso, o relato da situação-problema pode ser orientado por perguntas, tais como: Qual o problema? Quais as partes envolvidas? Que reações estão sendo manifestadas? Que soluções estão sendo propostas? Que resultados foram atingidos? Que novos problemas se originaram de tais soluções? (Roesch,2007)
 
 O método do caso para ensino em Administração é um material didático que não se popularizou na universidade brasileira e poucos professores utilizam casos-problema em sala de aula. (Roesch,2007)
 
-### 3.1.	O conflito entre os personagens e o problema de pesquisa
+### 3.1. O conflito entre os personagens e o problema de pesquisa
 
-"as controvérsias que proporcionam diferentes interpretações"  
+"as controvérsias que proporcionam diferentes interpretações"
 
 Aqui devemos ter pelo menos duas posições antagônicas. Devemos ter um conflito entre os os dois personagens do caso de estudo. Buscamos com isso que o aluno se posicione por uma das posições sobre o assunto. Esse posicionamento deverá ser fundamentado pela análise estatística.
 
-## 3.2.	A autoria do relatório e o letramento estatístico
+## 3.2. A autoria do relatório e o letramento estatístico
 
-Aqui o aluno tem que escrever um parecer fundamentado na análise estatística para algum personagem do caso de ensino. geralmente, o personagem é o(a) seu chefe. Desse modo, busca-se proporcionar ao alunx  uma  viagem  de  descoberta pelo metodo cientifico para fundamentar a sua anáilse.
+Aqui o aluno tem que escrever um parecer fundamentado na análise estatística para algum personagem do caso de ensino. geralmente, o personagem é o(a) seu chefe. Desse modo, busca-se proporcionar ao alunx uma viagem de descoberta pelo metodo cientifico para fundamentar a sua anáilse.
 
-Nesse sentido, ao final do caso de esuno 
+Nesse sentido, ao final do caso de esuno
 
-.	O parecer/posicionamento do alunxs
+. O parecer/posicionamento do alunxs
 
-aqui o aluno deverá construir um plano de  ação.
+aqui o aluno deverá construir um plano de ação.
 
+## 4. Casos de ensino -- Exemplos Aplicados na estatística
 
-## 4. Casos de ensino –  Exemplos Aplicados na estatística 
-### 4.1.	Estudo da discriminação racial na empresa pública de processamento de dados, 
-
+### 4.1. Estudo da discriminação racial na empresa pública de processamento de dados,
 
 O primeiro passo é a importação da base de dados.
 
@@ -144,10 +149,11 @@ banco_de_dados <- read.csv2('https://raw.githubusercontent.com/DATAUNIRIO/Base_d
 Depois disso uma etapa importante é inspecionar os dados. Isso pode ser facilmente observado no R com a função *str* e observando o dicionário de dados ( codebook).
 
 # Estrutura de dados
+
 ```{r, eval=FALSE}
 str(banco_de_dados)
 ```
- 
+
 ```{r}
 dicionario <- tibble::tibble(
 Nome_da_variavel=c('Grau de Pagamento','Gênero','Raça','Casado','Idade','Anos trabalho','Desempenho'),
@@ -158,13 +164,11 @@ Descricao_da_variavel=c(
 	
 ```
 
-
 ```{r, echo=FALSE}
 library(flextable)
 flextable(dicionario)
 ```
- 
- 
+
 Aqui, os alunxs devem perceber que há um erro no banco de dados. Temos variáveis qualitativas sendo tratadas como quantitativas. para corrigí-las devemos usar uma das estratégias abaixo. Todas essas estratégias são aceitaveis. O uso dessas estratégias (básica, intermediária, avançada) dependem do nível de letramento de programação R cada alunx.
 
 ```{r, eval=FALSE}
@@ -175,7 +179,6 @@ banco_de_dados$casado<-as.factor(banco_de_dados$casado)
 banco_de_dados$grau_pagamento<-as.factor(banco_de_dados$grau_pagamento)
 
 ```
-
 
 ```{r}
 
@@ -191,8 +194,6 @@ banco_de_dados$casado<-ifelse(banco_de_dados$casado==0,'Não',
 
 ```
 
-
-
 ```{r}
 # nível avançado com uso da função case_when 
 library(dplyr)
@@ -207,7 +208,7 @@ banco_de_dados<-banco_de_dados %>%
 
 ```
 
-Se você tiver mais tempo do que um semestre para trabalhar com os alunos, sugiro trocar o registro do salário da linha 90 (id=90). A trocar do salário de R$ 2.710,00 para R$ 27.100,00. Aqui você poderia discutir um pouco mais do tratamento das variáveis, *outliers*, erro de digitação, registros duplicados entre outros elementos da fase de limpeza/higienização dos dados. O código para isso seria algo do tipo
+Se você tiver mais tempo do que um semestre para trabalhar com os alunos, sugiro trocar o registro do salário da linha 90 (id=90). A trocar do salário de R\$ 2.710,00 para R\$ 27.100,00. Aqui você poderia discutir um pouco mais do tratamento das variáveis, *outliers*, erro de digitação, registros duplicados entre outros elementos da fase de limpeza/higienização dos dados. O código para isso seria algo do tipo
 
 ```{r, eval=FALSE}
 # discussao do outlier
@@ -217,30 +218,23 @@ banco_de_dados$salario[90]<- 2710
 
 ```
 
+### 4.2. Estudo da discriminação racial na Escola Oliveira,
 
-### 4.2.	Estudo da discriminação racial na Escola Oliveira, 
-### 4.3.	Estudo da desigualdade de gênero dos candidatos a vereador(a) no município de varre-e-sai
-
+### 4.3. Estudo da desigualdade de gênero dos candidatos a vereador(a) no município de varre-e-sai
 
 ### 5. *exemplos de relatorios de alunxs*
-com essa atividade, os alunos conseguiram fazer isso aquilo e isso outro
-falar que será um banco de dados 
 
+com essa atividade, os alunos conseguiram fazer isso aquilo e isso outro falar que será um banco de dados
 
-
-[https://dataunirio.github.io/Trabalhos_alunos_UNIRIO/avaliacao_da_disciplina/index.html](https://dataunirio.github.io/Trabalhos_alunos_UNIRIO/avaliacao_da_disciplina/index.html)
+<https://dataunirio.github.io/Trabalhos_alunos_UNIRIO/avaliacao_da_disciplina/index.html>
 
 ## 5. Conclusão
 
+no futuro, buscarei colocar algumas variaveis irrelevantes para que o aluno possa separar variáveis pouco importantes de variáveis mais fundamentais
 
+\#\#Referências 1.Roesch, Sylvia Maria AzevedoNotas sobre a construção de casos para ensino. Revista de Administração Contemporânea [online]. 2007, v. 11, n. 2 [Acessado 27 Outubro 2021] , pp. 213-234. Disponível em: <https://doi.org/10.1590/S1415-65552007000200012>. Epub 18 Jan 2008. ISSN 1982-7849. <https://doi.org/10.1590/S1415-65552007000200012>.
 
-
-no futuro, buscarei colocar algumas variaveis irrelevantes para que o aluno possa 
- separar  variáveis pouco importantes de variáveis  mais  fundamentais
-
-##Referências
-1.Roesch, Sylvia Maria AzevedoNotas sobre a construção de casos para ensino. Revista de Administração Contemporânea [online]. 2007, v. 11, n. 2 [Acessado 27 Outubro 2021] , pp. 213-234. Disponível em: <https://doi.org/10.1590/S1415-65552007000200012>. Epub 18 Jan 2008. ISSN 1982-7849. https://doi.org/10.1590/S1415-65552007000200012.
-
+```{=html}
 <!--
 
 ## 2. Etapas do projeto
@@ -361,7 +355,7 @@ Para facilitar a tarefa, a função [`mutate_all`](https://www.rdocumentation.or
 
 > **Dica**: para que as tabelas e gráficos a serem preparados em etapas posteriores sejam autoinformativos, sugere-se a modificação das categorias das variáveis qualitativas para nomes mais compreensíveis. Essa etapa pode ser realizada pela função [`levels`](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/levels). As mudanças devem seguir a ordem que o R apresenta as categorias. Por isso, recomenda-se rodar primeiramente a função `levels` para ver a ordem dos níveis antes de realizar a substituição.
 -->
-
+```
 ```{r, message=FALSE,warning=FALSE}
 # Mudando os nomes das categorias
 #<!-- levels(avc$gender) <- c("Feminino", "Masculino", "Outro") -->
@@ -374,6 +368,7 @@ Para facilitar a tarefa, a função [`mutate_all`](https://www.rdocumentation.or
 #<!-- levels(avc$stroke) <- c("Não", "Sim") -->
 ```
 
+```{=html}
 <!-- 
 Após lidar com as variáveis qualitativas, o aluno precisa ainda corrigir a variável **bmi**. Apesar de ser numéria, o R codificou-a como caracter. Isso se deve à presença de uma palavra entre os valores. Quando isso acontece, o R entende que aquela coluna contém caracteres e assim a codifica. Mas este não era o caso. Para verificar, vamos ver as 20 primeiras linhas da variável com a função [`head`](https://www.rdocumentation.org/packages/utils/versions/3.6.2/topics/head).
 
@@ -397,3 +392,4 @@ Após o pré-processamento de dados, o aluno deverá ser capaz de chegar na segu
 #str(avc)
 ```
 -->
+```
