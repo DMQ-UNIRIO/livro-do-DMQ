@@ -31,14 +31,19 @@ O objetivo não era conseguir encontrar o valor correto de uma conta/calculo de 
 
 Os casos apresentado aqui foram desenvolvidos a partir do livro de PETERS e GRAY (1994). Este livro apresenta dezoito casos de problemas de gestão resolvidos com a estatística e deve ser visto como a fonte primária (e complementar) desse texto. Só para dar um exemplo, o protagonista Johnson do caso de discriminação racial corporativa (*employee discrimination*) foi traduzido em um caso de racismo do professor João da Escola Oliveira Ltda.
 
-```{=html}
-<!--
-#### O valor correto inútil de uma conta/calculo de estatística que o computador faz para gente.
--->
-```
-#### O valor correto da aplicação das formulas de estatística.
+
+#### O valor correto pouco útil da aplicação das formulas de estatística *que o computador faz para gente*.
+.
+
+Não é que a abordagem de aplicação de formulas e fazer contas estatística "na mão" seja inútil. O que estou querendo dizer é que o estudante não vai fazer mestrado em estatística e muitas vezes buscar o valor correto de uma conta estatística que o R ou o Python faz de forma automatica será de pouca importancia para um futuro gestor. Assim, ele estuda para passar na prova e depois esquece desse conteúdo.
+
 
 Os livros didáticos tradicionais de estatística buscam enfatizar o processo de encontrar a resposta certa em um determinado intervalo de confiança (95%/99% de confiança). Muitas vezes, essa abordagem não tem nenhum contexto do motivo para a construção desse intervalo. Esse tipo de método tende a valoriza o calculo e a memorização das formulas. O objetivo geralmente é a aplicação correta de procedimentos estatísticos para encontrar a resposta numérica correta. Neste caso, o limite inferior e superior do intervalo de confiança. Você sabe o que estou dizendo. Todos nós passamos por isso como alunos e professores.
+
+Nesta abordagem, no lugar do objetivo ser conseguir a resposta correta em uma aplicacao das contas e análise estatística, o objetivo, muitas vezes, é entender a situação problema da gestão e resolver um problema real no processo de tomada de decisão em situações tipicas da administração/gestão.
+
+Neste projeto, busco dar aos estudantes a oportunidade de trabalhar com um caso de estudo representativo do mundo real que exige do estudante a identificação do problema a ser abordado, bem como indentificar quais são as informações relevantes e não relevantes. De forma ainda mais clara: esta abordagem precisa que o estudante "mergulhe direto nos dados" para definir o problema, desenvolver alternativas de gestão e recomendar uma solução. 
+
 
 #### A famosa pergunta: PARA QUE TENHO QUE APRENDER ISSO?
 
@@ -71,6 +76,10 @@ Utilizar os conceitos de estatística e de probabilidade para criar o discurso e
 Aqui a linguagem de programação R deixa de ser apenas um técnica e passa a ser parte do processo de construção do conceito.
 
 A pergunta da prova geralmente é parecida com à dada em sala de aula. Apesar de apenas trabalhar com a memoria, o método tem um certo prestigio com os alunos. **a prova seria exatamente o esperado**. Fácil, seguro e quase inutil na minha visão. Ninguem achava aquelas informacoes uteis ou interessantes (Leandro Karnal p. 54).
+
+
+
+
 
 ### 1.1. Objetivo
 
