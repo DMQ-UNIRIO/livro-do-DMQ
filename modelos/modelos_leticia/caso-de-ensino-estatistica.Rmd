@@ -37,7 +37,6 @@ Os casos apresentado aqui foram desenvolvidos a partir do livro de PETERS e GRAY
 
 Não é que a abordagem de aplicação de formulas e fazer contas estatística "na mão" seja inútil. O que estou querendo dizer é que o estudante não vai fazer mestrado em estatística e muitas vezes buscar o valor correto de uma conta estatística que o R ou o Python faz de forma automatica será de pouca importancia para um futuro gestor. Assim, ele estuda para passar na prova e depois esquece desse conteúdo.
 
-
 Os livros didáticos tradicionais de estatística buscam enfatizar o processo de encontrar a resposta certa em um determinado intervalo de confiança (95%/99% de confiança). Muitas vezes, essa abordagem não tem nenhum contexto do motivo para a construção desse intervalo. Esse tipo de método tende a valoriza o calculo e a memorização das formulas. O objetivo geralmente é a aplicação correta de procedimentos estatísticos para encontrar a resposta numérica correta. Neste caso, o limite inferior e superior do intervalo de confiança. Você sabe o que estou dizendo. Todos nós passamos por isso como alunos e professores.
 
 Nesta abordagem, no lugar do objetivo ser conseguir a resposta correta em uma aplicacao das contas e análise estatística, o objetivo, muitas vezes, é entender a situação problema da gestão e resolver um problema real no processo de tomada de decisão em situações tipicas da administração/gestão.
@@ -65,7 +64,7 @@ O prof. Pimentel da escola de informatica da UNIRIO uma vez afirmou o método tr
 
 Busco promover o letramento em Estatística, isto é,desenvolver a capacidade de interpretar e de criar discursos em estatística para atuar no mundo.
 
-Praticar o diálogo EstatADM
+Praticar o diálogo Estatística com a Gestão
 
 oportunizar diálogos para desenvolver a linguagem e o pensamento em Estatística, empregar vocabulário da linguagem Estatística
 
