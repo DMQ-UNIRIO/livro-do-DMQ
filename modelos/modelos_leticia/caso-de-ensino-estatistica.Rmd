@@ -47,6 +47,8 @@ Neste projeto, busco dar aos estudantes a oportunidade de trabalhar com um caso 
 #### A famosa pergunta: PARA QUE TENHO QUE APRENDER ISSO?
 
 > I have no data yet. It is a capital mistake to theorize before one has data.(Sherlock Holmes)
+> Eu não tenho dados ainda. É um erro capital teorizar antes de se ter dados. (Sherlock Holmes)
+
 
 Acredito que esse destaque todo na busca pela resposta numérica correta falha com a importante contribuição que a estatistica pode dar ao processo de tomada de decisão pelo gestor público. PETERS e GRAY (1994) afirmam que se buscarmos a resposta correta do estudante, falhamos em entender o motivo pelo qual o conhecimento estatístico pode ser útil na area de administração (como conhecimento estatístico deve ser utilizado). Também dizem que falhamos em entender como esse conhecimento pode ajudar no processo de tomada de decisão em situações administrativas do mundo real. E completam: falhamos em mostrar o valor do conhecimento estatístico e isso sempre levará ao alunx a questionar a relevancia da estatística para a sua área (não poderia concorda mais com eles).
 
@@ -58,43 +60,38 @@ No lugar de encontrar a resposta numérica correta em uma prova de estatistica, 
 
 Em resumo, a vivência com os professores do DMQ e o livro do PETERS e GRAY (1994) me fizeram perceber que seria muito interessante abrir mão da aplicação do calculo numérico correto em uma prova em favor do conceito e da interpretação da estatística no mundo real.
 
-O prof. Pimentel da escola de informatica da UNIRIO uma vez afirmou o método tradicional por prova valoriza uma leitura mecânica. Isto é, porque assim o desafio passa a ser a memorização do texto. Se o estudante consegue decorar, terá respondido ao desafio da disciplina.
+Mariano Pimentel e Felipe Carvalho (2021) afirmam que há um equívoco entre o ato de avaliar e o ato de examinar. De acordo com eles, examinar é uma atividade pontual, efetivada por prova, realizada com a finalidade de classificar se o aluno sabe/não sabe determinados conteúdos, com vista a selecionar quem passa na disciplina, quem entra na universidade.Já a avaliação é uma atividade realizada continuamente ao longo das aulas, por meio de diferentes instrumentos, com a finalidade de investigar e produzir pistas, indicativos ou diagnósticos que possibilitem ao professor decidir o que deve fazer para apoiar o aluno a aprender.
 
-#### Autoria em estatística
+O ato de examinar efetivada por prova valoriza uma leitura mecânica. Isto é, porque assim o desafio passa a ser a memorização do texto. Se o estudante consegue decorar, terá respondido ao desafio da disciplina.
 
-Busco promover o letramento em Estatística, isto é,desenvolver a capacidade de interpretar e de criar discursos em estatística para atuar no mundo.
+Leandro Karnal diz algo parecido. Ele descreve uma situação em que substitui um outro professor de filosofia. Diz ele:
 
-Praticar o diálogo Estatística com a Gestão
+> A pergunta da prova geralmente é parecida com à dada em sala de aula. Apesar de apenas trabalhar com a memória, o método tem um certo prestigio com os alunos. **a prova seria exatamente o esperado**. Fácil, seguro e quase inutil na minha visão. Ninguém achava aquelas informações úteis  ou interessantes (Leandro Karnal p. 54).
 
-oportunizar diálogos para desenvolver a linguagem e o pensamento em Estatística, empregar vocabulário da linguagem Estatística
+De forma oposta à prova, busco o ato de avaliar. Isto é, o desenvolvimento de um projeto  autoral (CARVALHO;PIMENTEL, 2020) para promover o letramento em Estatística e a capacidade de criar discursos em estatística para atuar no mundo. Nesse sentido, os alunos utilizam os conceitos da estatística para criar o discurso em estatística.
 
-Interpretar-avaliar discursos em estatística (as análises mentem, omitem, enviesam?)
+Tento criar tanto nas aulas quanto na avaliação um espaço para praticar o diálogo com objetivo de desenvolver discursos em Estatística. Também tento perceber como os estudantes estão empregando o vocabulário da linguagem Estatística.  Assim. a linguagem de programação R deixa de ser apenas um técnica e passa a ser parte do processo de construção do conceito.
 
-Utilizar os conceitos de estatística e de probabilidade para criar o discurso em estatística.
-
-Aqui a linguagem de programação R deixa de ser apenas um técnica e passa a ser parte do processo de construção do conceito.
-
-A pergunta da prova geralmente é parecida com à dada em sala de aula. Apesar de apenas trabalhar com a memoria, o método tem um certo prestigio com os alunos. **a prova seria exatamente o esperado**. Fácil, seguro e quase inutil na minha visão. Ninguem achava aquelas informacoes uteis ou interessantes (Leandro Karnal p. 54).
-
-
-
-
+Este é o resultado.
 
 ### 1.1. Objetivo
 
-Este capítulo tem como objetivo apresentar um projeto de análise de dados baseado em caso de ensino com a liguagem de programação **R**.
+Este capítulo tem como objetivo apresentar um projeto autoral de análise de dados baseado em caso de ensino com a liguagem de programação **R**.
 
 ### 1.2. Habilidades a serem desenvolvidas
 
-A atividade envolve a defesa de uma posição pelo aluno sobre a situação problema. Assim, nessa atividade, buscamos: 1. a identificação da situação-problema\
-2. a formulação de perguntas de pesquisa/hipóteses,\
-3. análise exploratória inicial dos dados,\
-4. depuração de erros na base de dados/busca por outliers/limpeza e higenização dos dados, 5. refazer a análise exploratória após a limpeza dos dados,\
-6. escolha de um teste de hipóteses adequado,\
-7. avaliação das condições minimas para o teste de hipoteses\
-8. aplicação de testes de hipóteses/ realização do procedimentos\
-9. interpretação dos resultados.\
-10. escrita de um parecer com base no teste de hipoteses
+A atividade envolve a defesa de uma posição pelo aluno sobre a situação problema. Assim, nessa atividade, buscamos: 
+
+1. a identificação da situação-problema\    
+2. a formulação de perguntas de pesquisa/hipóteses,\    
+3. análise exploratória inicial dos dados,\    
+4. depuração de erros na base de dados/busca por outliers/limpeza e higenização dos dados,    
+5. refazer a análise exploratória após a limpeza dos dados,\   
+6. escolha de um teste de hipóteses adequado,\   
+7. avaliação das condições minimas para o teste de hipoteses\   
+8. aplicação de testes de hipóteses/ realização do procedimentos\   
+9. interpretação dos resultados.\   
+10. escrita de um parecer com base no teste de hipoteses   
 
 ### 1.3. Público-alvo
 
@@ -102,13 +99,7 @@ Alunos das ciências humanas e sociais, com enfase nos cursos de Administração
 
 > cada turma é uma nação diferente!
 
-## 2. Os objetivos pedagógicos.
-
-## 2.1. Os objetivos pedagógicos.
-
-## 2.2 Sequencia didática
-
-## 3. Casos de ensino -- Teoria,
+## 2. Casos de ensino -- Teoria,
 
 Casos para ensino em Administração Pública são relatos de situações da vida organizacional, construídos com propósitos educacionais específicos (Roesch,2007). Assim, nesse caso, a estrutura e o processo de redação de casos para ensino fundamenta-se em 03 (três) grandes pilares:
 
@@ -122,25 +113,25 @@ Assim, em um caso, o relato da situação-problema pode ser orientado por pergun
 
 O método do caso para ensino em Administração é um material didático que não se popularizou na universidade brasileira e poucos professores utilizam casos-problema em sala de aula. (Roesch,2007)
 
-### 3.1. O conflito entre os personagens e o problema de pesquisa
+### 2.1. O conflito entre os personagens e o problema de pesquisa
 
 "as controvérsias que proporcionam diferentes interpretações"
 
 Aqui devemos ter pelo menos duas posições antagônicas. Devemos ter um conflito entre os os dois personagens do caso de estudo. Buscamos com isso que o aluno se posicione por uma das posições sobre o assunto. Esse posicionamento deverá ser fundamentado pela análise estatística.
 
-## 3.2. A autoria do relatório e o letramento estatístico
+## 2.2. A autoria do relatório e o letramento estatístico
 
-Aqui o aluno tem que escrever um parecer fundamentado na análise estatística para algum personagem do caso de ensino. geralmente, o personagem é o(a) seu chefe. Desse modo, busca-se proporcionar ao alunx uma viagem de descoberta pelo metodo cientifico para fundamentar a sua anáilse.
+Aqui o aluno tem que escrever um parecer fundamentado na análise estatística para algum personagem do caso de ensino. geralmente, o personagem é o(a) seu chefe. Desse modo, busca-se proporcionar ao alunx uma viagem de descoberta pelo metodo cientifico para fundamentar a sua análise.
 
-Nesse sentido, ao final do caso de esuno
+Nesse sentido, ao final do caso de ensino é preciso que o alunx expresse o que foi aprendido. Vejo que  
 
-. O parecer/posicionamento do alunxs
+O parecer/posicionamento do alunxs
 
 aqui o aluno deverá construir um plano de ação.
 
-## 4. Casos de ensino -- Exemplos Aplicados na estatística
+## 3. Casos de ensino -- Exemplos Aplicados na estatística
 
-### 4.1. Estudo da discriminação racial na empresa pública de processamento de dados,
+### 3.1. Estudo da discriminação racial na escola Oliveira.
 
 O primeiro passo é a importação da base de dados.
 
