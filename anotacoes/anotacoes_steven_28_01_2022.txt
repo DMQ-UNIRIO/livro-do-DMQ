@@ -1,0 +1,49 @@
+1. corrigir
+Anos de idade do funcionário
+
+2. COLOCAR + R na analise exploratoria
+EXEMPLO DO GRAFICO RACA E SALARIO
+"Inclusive, nesse momento percebemos que no cruzamento há uma relação entre a raça e o salário que sugere que a afirmação do João está correta."
+
+3. CORRIGIR da variável da variável na ultima linha
+
+impacto da variável da variável raça no salário?
+
+-----------------------------------
+1. colocar mais graficos e tabelas
+2. mostrar mais resultados
+3. mostrar mais algo que está nos dados
+4. descrever a turma
+
+ 
+são 50 alunos do curso de administração
+do segundo periodo que fizeram aula de matemática no primeiro periódo e não conhecem programação.
+
+A grande maioria (87% deles) não conhece o R.
+contar um pouco mais da dinâmica do processo.
+
+"minoria incomoda"
+trocar o termo "minoria" por outro melhor
+-----------------------------------
+colocar um disclaimer
+termo de isenção de responsabilidade 
+disclaimer - esse é um banco de dados simulado
+não representa a realidade social das escolas do Brasil
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
