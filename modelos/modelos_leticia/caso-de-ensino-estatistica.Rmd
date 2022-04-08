@@ -1,4 +1,5 @@
 ---
+author: "<img src = 'Imagem1.png' width = '20%'>"
 output:
   word_document: 
     reference_docx: Modelo.docx
@@ -11,32 +12,36 @@ knitr::opts_chunk$set(echo = TRUE,
                       comment = NA)
 ```
 
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
+knitr::include_graphics("Imagem1.png")
+
+```
+
+
 ## 1. Introdução
 
 ### Dedicado ao Augusto Boal e ao DMQ
 
 > A escola é o lugar para a construção e vivência de experiencias e valores significativos (Leandro Karnal).
 
-> Importante na escola não é só estudar. É também criar laços de amizade, É criar ambiente de camaradagem. É conviver, é se “amarrar nela”
+> Importante na escola não é só estudar. É também criar laços de amizade, É criar ambiente de camaradagem. É conviver, é se “amarrar nela” (Paulo Freire)
 
 Esse texto é dedicado aos estudantes de estatística da UNIRIO e aos meus (espetaculares) colegas de departamento. Minha convivência com eles (estudantes e professores) me ajudou a perceber que um curso de estatística para uma turma de administração pública precisa ser muito mais do que fórmulas, questões de livros e aplicação de provas.
 
 Essa minha experiência com eles me diz que há uma necessidade real de mostrar como a disciplina de estatística é uma parte essencial do currículo profissional dos novos gestores públicos. Isso me fez tentar traduzir as fórmulas matemática da área da estatística em objetivos pedagógicos aplicados. Assim, esse texto é o resultado da minha abordagem pessoal aos conceitos desenvolvidos no coração do Departamento de Métodos Quantitativos da UNIRIO.
 
-Assim, começo dizendo que tentei mudar o modo que a estatística fosse percebida pelos estudantes. Busquei fazê-la de forma totalmente aplicada. Tentei mostrá-la como uma importante ferramenta da administração pública. Acredito que isso leva a uma integração da teoria com a prática de uma forma que não encontrada em um curso de graduação.
+Assim, começo dizendo que tentei mudar o modo que a estatística fosse percebida pelos estudantes. Busquei fazê-la de forma totalmente aplicada. Tentei mostrá-la como uma importante ferramenta da administração pública. Acredito que isso leva a uma melhor integração da teoria com a prática de uma forma que não encontrada em um curso de graduação.
 
-O objetivo não era conseguir encontrar o valor correto de uma conta/cálculo de estatística, mas sim utilizar o método quantitativo como um instrumento para orientar o processo de tomada de decisão na administração pública. Acredito que, desse modo, o estudante não só aprenderá a estatística, mas deverá preservar o pensamento estocástico e reconhecer como e quando aplicar esses conceitos na sua vida profissional décadas depois de passar por esse semestre.
+Nessa abordagem, o objetivo não era conseguir encontrar o valor correto de uma conta/cálculo de estatística, mas sim utilizar o método quantitativo como um instrumento para orientar o processo de tomada de decisão na administração pública. Acredito que, desse modo, o estudante não só aprenderá a estatística, mas deverá preservar o pensamento estocástico e reconhecer como e quando aplicar esses conceitos na sua vida profissional décadas depois de passar por esse semestre.
 
 Essa abordagem levanta perguntas científicas que são interessantes e eles contêm conjuntos de dados para uso em endereçamento essas perguntas. O contexto da questão científica é o ponto de partida para o desenvolvimento da teoria estatística (Nolan,D. and Speed,T.P.; 1999).
 
-O modelo proposto aqui é projetar casos de ensino com problemas de pesquisa que tem contexto com maior profundidade do que a maioria dos textos estatísticos, possibilitando investigações e análises no contexto de um problema científico, e desenvolvimento teórico detalhado dentro da sala de aula. Um objetivo importante dessa abordagem é incentivar e desenvolver o pensamento estatístico. Também é defendido que os laboratórios sejam feitos a peça central do curso teórico.
-
-Como resultado, a avaliação foi completamente reestruturada. Por exemplo, o trabalho a ser apresentado ao final do curso inclui análises de dados abertas e incluem trabalho em grupo e discussões sobre os estudos de caso.
+O modelo proposto aqui é projetar casos de ensino com problemas de pesquisa que tem contexto com maior profundidade do que a maioria dos textos estatísticos, possibilitando investigações e análises no contexto de um problema científico, e desenvolvimento teórico detalhado dentro da sala de aula. Um objetivo importante dessa abordagem é incentivar e desenvolver o pensamento estatístico. Como resultado, a avaliação foi completamente reestruturada. Por exemplo, o trabalho a ser apresentado ao final do curso inclui análises de dados de questões abertas e incluem trabalho em grupo e discussões sobre os estudos de caso.
 
 Assim, com as aulas tradicionais de Estatística Matemática pode ser difícil para os(as) alunos(as) fazer a transição da leitura e compreensão de uma análise estatística em um livro didático para trabalhar com a Estatística em sua pesquisa, no seu TCC ou na sua vida profissional.
 
-Assim, coloquei descrições detalhadas dos dados para colocar o problema em contexto, e
-sugestões de como proceder na análise.  Isso permitiu que o caso de ensino a peça central do curso de pensamento estatístico, não só um acompanhamento secundário das demostrações de fórmulas.
+Assim, coloquei descrições detalhadas dos dados para colocar o problema em contexto, e sugestões de como proceder na análise.  Isso permitiu que o caso de ensino a peça central do curso de pensamento estatístico, não só um acompanhamento secundário das demostrações de fórmulas.
 
 Como resultado dessa reestruturação visando os casos de ensino, várias mudanças ocorreram no curso. O formato das avaliações mudou. Mais tempo foi gasto para determinar como tomar decisão orientada a dados com análises estatísticas e sobre a construção de um método estatístico para sua aplicação em um problema específico. Assim, o um tempo menor foi gasto cobrindo a demostração de fórmulas para ilustrar uma técnica estatística.
 
@@ -44,12 +49,11 @@ Como resultado dessa reestruturação visando os casos de ensino, várias mudan�
 
 Os casos apresentado aqui foram desenvolvidos a partir do livro de PETERS e GRAY (1994). Este livro apresenta dezoito casos de problemas de gestão resolvidos com a estatística e deve ser visto como a fonte primária (e complementar) desse texto. Só para dar um exemplo, o protagonista Johnson do caso de discriminação racial corporativa (*employee discrimination*) foi traduzido em um caso de racismo do professor João da Escola Oliveira Ltda.
 
-
 #### O valor correto pouco útil da aplicação das formulas de estatística *que o computador faz para gente*.
 
 Não é que a abordagem de aplicação de formulas e fazer contas estatística "na mão" seja inútil. O que estou querendo dizer é que o estudante não vai fazer mestrado em estatística e muitas vezes buscar o valor correto de uma conta estatística que o R ou o Python faz de forma automática será de pouca importancia para um futuro gestor. Assim, o(a) aluno(a) estuda para passar na prova e depois esquece desse conteúdo.
 
-Os livros didáticos tradicionais de estatística buscam enfatizar o processo de encontrar a resposta certa em um determinado intervalo de confiança (95%/99% de confiança). Muitas vezes, essa abordagem não tem nenhum contexto do motivo para a construção desse intervalo. Esse tipo de método tende a valoriza o cálculo e a memorização das fórmulas. O objetivo geralmente é a aplicação correta de procedimentos estatísticos para encontrar a resposta numérica correta. Neste caso, o limite inferior e superior do intervalo de confiança. Você sabe o que estou dizendo. Todos nós passamos por isso como alunos e como professores.
+Os livros didáticos tradicionais de estatística buscam enfatizar o processo de encontrar a resposta certa em um determinado intervalo de confiança (95% ou 99% de confiança). Muitas vezes, essa abordagem não tem nenhum contexto do motivo para a construção desse intervalo. Esse tipo de método tende a valoriza o cálculo e a memorização das fórmulas. O objetivo geralmente é a aplicação correta de procedimentos estatísticos para encontrar a resposta numérica correta. Neste caso, o limite inferior e superior do intervalo de confiança. Você sabe o que estou dizendo. Todos nós passamos por isso como alunos e como professores.
 
 Na abordagem por caso de ensino, no lugar do objetivo ser conseguir a resposta correta em uma aplicacao das contas e análise estatística, o objetivo, muitas vezes, é entender a situação problema da gestão pública e resolver um problema real no processo de tomada de decisão em situações tipicas da administração/gestão.
 
@@ -79,7 +83,7 @@ Leandro Karnal diz algo parecido em seu livro. Ele descreve uma situação em qu
 
 > A pergunta da prova geralmente é parecida com à dada em sala de aula. Apesar de apenas trabalhar com a memória, o método tem um certo prestigio com os alunos. **a prova seria exatamente o esperado**. Fácil, seguro e quase inutil na minha visão. Ninguém achava aquelas informações úteis ou interessantes (Leandro Karnal p. 54).
 
-De forma oposta à prova, nesta abordagem busco o ato de avaliar. Isto é, o desenvolvimento de um projeto autoral (CARVALHO;PIMENTEL, 2020) para promover o letramento em Estatística e a capacidade de criar discursos em estatística para atuar no mundo. Nesse sentido, os alunos utilizam os conceitos da estatística para criar o discurso em estatística.
+De forma oposta à prova, nesta abordagem busco o ato de avaliar. Isto é, o desenvolvimento de um projeto autoral (CARVALHO;PIMENTEL, 2020) para promover o letramento em Estatística e a capacidade de criar discursos em estatística para atuar no mundo. Nesse sentido, os alunos utilizam os conceitos para criar o discurso em estatística.
 
 Tento criar tanto nas aulas quanto na avaliação um espaço para praticar o diálogo com objetivo de desenvolver discursos em Estatística. Também tento perceber como os estudantes estão empregando o vocabulário da linguagem Estatística.  Assim. a linguagem de programação R permite que o processo de estudo da estatística deixa de ser apenas um técnica e passa a ser parte do processo de construção do conceito.
 
@@ -136,37 +140,34 @@ Aqui, o aluno tem que escrever um parecer fundamentado na análise estatística 
 
 Nesse sentido, ao final do caso de ensino é preciso que o alunx expresse o que foi aprendido em um parecer/posicionamento do alunxs e construção de um plano de ação.
 
-## 3. Casos de ensino -- Exemplos Aplicados na estatística
+## 3. Casos de ensino aplicados na estatística: Colégio e Curso Oliveira
 
-Colégio e Curso Oliveira
+Tudo começou pacificamente. João, um dos professores do Colégio e Curso Oliveira, perguntou a Washington e Michel quanto cada um recebia de salário. Foi uma pergunta inocente e a resposta sugeriu que os três estavam exercendo a mesma função e recebendo os mesmos salários. Então, Michel disse que tinha recebido um memorando da Secretária do colégio em que todos os salários do departamento foram listados e notou algo engraçado. Os salários dos três estavam entre os mais baixos da lista. De fato, observou Michel, quase todos os negros do colégio estavam na metade inferior da lista.
 
-Tudo começou pacificamente. João, um dos professores do Colégio e Curso Oliveira, perguntou a Washington e Michel quanto cada um recebia de salário. Foi uma pergunta inocente e a resposta sugeriu que os três estavam exercendo a mesma função e recebendo os mesmos salários. Ninguém parecia interessado. Então, Michel disse que tinha recebido um memorando da Secretária do colégio em que todos os salários do departamento foram listados e notou algo engraçado. Os salários dos três estavam entre os mais baixos da lista. De fato, observou Michel, quase todos os negros do colégio estavam na metade inferior da lista.
-
-Surgiu então entre os três, a dúvida se o Colégio e Curso Oliveira praticava discriminação contra as minorias. Esta discussão permaneceu durante toda a semana. E a cada dia alguém trazia alguma informação sobre as outras filiais do colégio de todo o país. Estas informações continuavam a sugerir que as minorias, não somente os empregados negros, mesmo exercendo a mesma função não estavam recebendo os mesmos salários que os empregados brancos. Eles tinham a informação de mais quatro unidades do colégio que sugeria, quando calculada a média, que as minorias estavam recebendo R$ 250,00 a menos que os empregados brancos. 
+Surgiu então entre os três, a dúvida se o Colégio e Curso Oliveira praticava discriminação contra as minorias. Esta discussão permaneceu durante toda a semana. E a cada dia alguém trazia alguma informação sobre as outras filiais do colégio de todo o país. Estas informações continuavam a sugerir que as minorias, não somente os empregados negros, mesmo exercendo a mesma função não estavam recebendo os mesmos salários que os empregados brancos. Eles tinham a informação de mais quatro unidades do colégio que sugeria, quando calculada a média, que as minorias estavam recebendo R$ 251,00 a menos que os empregados brancos. 
 
 João lembrou do que foi lhe dito quando foi contratado pelo dono do colégio: “Quando Miller me contratou ano passado, ele disse que a administração do Colégio e Curso Oliveira acredita em políticas de ação afirmativa. Ele me prometeu que eu iria longe com esforço e desenvolvendo um bom trabalho. Eu não estou dizendo que no ano passado tenha sido ruim, mas esta questão salarial me fez pensar se eu deveria ficar ou começar a procurar um lugar onde as minorias são tratadas da mesma maneira que os brancos”. Washington e Michel concordaram. 
 
 Quanto mais discutiam o assunto, mais eles se sentiram traídos por uma instituição que no início parecia ser um lugar que não iria levar em consideração a cor da pele. Na verdade, eles estavam todos impressionados com a posição do colégio com relação a política de ação afirmativa. Foi-lhes dito que o progresso no Colégio e Curso Oliveira, e o salário, dependeriam de quão bem eles fizessem o seu trabalho - que eles poderiam esperar para passar do cargo de Professor Substituto (Grau 1) para Professor Titular (Grau 2) em dois ou três anos e então mudar para Professor Senior (Grau 3) três ou quatro anos mais tarde.  
 
 Eles decidiram esperar as revisões anuais de desempenho, com os aumentos salariais determinados pelo desempenho durante o ano anterior. 
-
-João não comentou mais sobre o incidente dos salários durante muitas semanas. Por conta própria, entretanto, ele começou a ler sobre direito do trabalho para verificar se seus direitos civis foram violados. Ele mesmo ligou para o escritório local da Comissão de Igual Oportunidades de Emprego (CIOE) e falou com um agente sobre sua situação. O agente Malone sugeriu que ele deveria levar o problema para seu supervisor. Malone disse a ele que, pela sua experiência, frequentemente problemas como este eram facilmente explicados pela companhia. Ele disse, entretanto, claramente que uma diferença de salário de US$ 250 por mês entre as minorias e não-minorias não era insignificante e, de fato, atraiu a atenção da CIOE. 
+João não comentou mais sobre o incidente dos salários durante muitas semanas. Por conta própria, entretanto, ele começou a ler sobre direito do trabalho para verificar se seus direitos civis foram violados. Ele mesmo ligou para o escritório local da Comissão de Igual Oportunidades de Emprego (CIOE) e falou com um agente sobre sua situação. O agente Malone sugeriu que ele deveria levar o problema para seu supervisor. Malone disse a ele que, pela sua experiência, frequentemente problemas como este eram facilmente explicados pela empresa. Ele disse, entretanto, claramente que uma diferença de salário de US$ 250 por mês entre as minorias e não-minorias não era insignificante e, de fato, atraiu a atenção da CIOE. 
 
 João, escoltado por seus dois amigos, foi ver o Kirk, o administrador do departamento pessoal do colégio. Kirk parecia agitado quando João apresentou os fatos a ele. Ele simplesmente indeferiu seu protesto alegando ser um absurdo completo. Disse aos três para deixar o trabalho de gestão para gestores e para voltar ao trabalho para que eles pudessem desempenhar seus trabalhos bem o suficiente para terem uma boa avaliação e, assim, um bom aumento de salário no próximo ano. Quando João “perguntou em voz alta” se a evolução das performances foi alterada para justificar aumentos menores de salários para as minorias, Kirk deu um soco na mesa. Abruptamente disse lhes para parar de tentar causar problemas. Informou a eles, bastante ríspido e muito alto, que “... salário é baseado no desempenho e no feedback dos alunos e pais. A forma mais simples de você melhorar seu salário é prestar muita atenção em seu trabalho”. Ele então os dispensou.
 
-Previsivelmente, João achou ofensivo o conteúdo e o tom dos comentários de Kirk. Junto com Washington e Post, eles organizaram um pequeno grupo de minorias que ameaçaram visitar o escritório de reclamações do CIOE a fim de prosseguir com suas convicções de que o Colégio e Curso Oliveira pratica política discriminatória de pagamento de salários.
+Previsivelmente, João achou ofensivo o conteúdo e o tom dos comentários de Kirk. Junto com Washington e Michel, eles organizaram um pequeno grupo de minorias que ameaçaram visitar o escritório de reclamações do CIOE a fim de prosseguir com suas convicções de que o Colégio e Curso Oliveira pratica política discriminatória de pagamento de salários.
 
 Rodrigo Oliveira, dono do Colégio e Curso Oliveira, agendou uma reunião com João, Washington e Post, naquela tarde. Foi uma conversa mais tranquila. Oliveira iniciou pedindo a eles para explicar suas preocupações. João expôs os fatos e, adicionalmente, informou como foram tratados por Kirk.
 
-Oliveira respondeu assegurando aos três que no Colégio e Curso Oliveira não há discriminação contra ninguém. Ele repetiu a mensagem dita por Kirk sobre como os salários são determinados, mas sem o tom ofensivo. Naturalmente, Mr. Greer delineou o voluntário programa de ação afirmativa iniciado pelo Colégio e Curso Oliveira há dois anos atrás, como apenas um exemplo da filosofia de que o colégio valoriza o que a pessoa faz em seu trabalho independentemente de raça ou gênero. João estava disposto a escutar sobre a política de salários e falar sobre o programa de contratação afirmativa, mas continuou a focar na aparente diferenças salariais que ocorre apesar das políticas implementadas. E insistiu que a igualdade salarial deve ser alcançada e, portanto, não abandona sua posição quanto à discriminação existente. 
+Oliveira respondeu assegurando aos três que no Colégio e Curso Oliveira não há discriminação contra ninguém. Ele repetiu a mensagem dita por Kirk sobre como os salários são determinados, mas sem o tom ofensivo. Naturalmente, Sr. Rodrigo delineou o programa de ação afirmativa iniciado pelo Colégio e Curso Oliveira há dois anos atrás, como apenas um exemplo da filosofia de que o colégio valoriza o que a pessoa faz em seu trabalho independentemente de raça ou gênero. João estava disposto a escutar sobre a política de salários e falar sobre o programa de contratação afirmativa, mas continuou a focar na aparente diferenças salariais que ocorre apesar das políticas implementadas. E insistiu que a igualdade salarial deve ser alcançada e, portanto, não abandona sua posição quanto à discriminação existente. 
 
 Oliveira prometeu a seus três funcionários que iria analisar o problema e marcaria outra reunião para apresentar os resultados de sua análise.
-Atribuição
 
-Você foi designado para comandar um grupo para investigar essa alegação de discriminação. Oliveira tem uma série de questões a serem resolvidas. Ele lhe deu acesso ao emprego e às séries históricas de remuneração dos funcionários do colégio. Estes dados estão contidos no arquivo Escola_Oliveira.xlsx. Você terá de analisar o emprego e a série de pagamentos históricos contidos neste arquivo e tentar resolver as questões apresentadas por João.
+### Atribuição
 
-Com base em sua compreensão das questões e sua interpretação dos dados sobre o emprego e salário, escrever um relatório para o Sr. Oliveira resumindo sua opinião sobre a responsabilidade do Colégio e Curso Oliveira. Anexo algumas perguntas que irão guiar seu pensamento. Use detalhes importantes para sua análise para apoiar a sua recomendação. 
+Você foi designado para comandar um grupo para investigar essa alegação de discriminação. Oliveira tem uma série de questões a serem resolvidas. Ele lhe deu acesso ao emprego e às séries históricas de remuneração dos funcionários do colégio. Estes dados estão contidos no arquivo *Escola_Oliveira.xlsx*. Você terá de analisar o emprego e a série de pagamentos históricos contidos neste arquivo e tentar resolver as questões apresentadas por João.
 
+Com base em sua compreensão das questões e sua interpretação dos dados sobre o emprego e salário, escrever um relatório para o Sr. Oliveira resumindo sua opinião sobre a responsabilidade do Colégio e Curso Oliveira. Use detalhes importantes da sua análise para apoiar a sua recomendação. 
 
 ### 3.1. Implementação da análise da discriminação racial na escola Oliveira.
 
@@ -248,7 +249,7 @@ banco_de_dados<-banco_de_dados %>%
 
 ```
 
-Se você tiver mais tempo do que um semestre para trabalhar com os alunos, sugiro trocar o registro do salário da linha 90 (id=90). A trocar do salário de R\$ 2.710,00 para R\$ 27.100,00. Aqui você poderia discutir um pouco mais do tratamento das variáveis, *outliers*, erro de digitação, registros duplicados entre outros elementos da fase de limpeza/higienização dos dados. O código para isso seria algo do tipo
+Se você tiver mais tempo do que um semestre para trabalhar com os alunos, sugiro trocar o registro do salário da linha 90 (id=90). A trocar do salário de R\$ 2.710,00 para R\$ 27.100,00. Aqui você poderia discutir um pouco mais do tratamento das variáveis, *outliers*, erro de digitação, registros duplicados entre outros elementos da fase de limpeza/higienização dos dados. O código para isso seria algo do tipo.
 
 ```{r, eval=FALSE}
 # discussao do outlier
@@ -271,227 +272,104 @@ Nesse momento é importante destacar que temos variáveis irrelevantes para a an
 Assim, o(a) aluno(a) deve compreender que as variáveis *Gênero*, *Casado*, e *Idade* não são relevantes para a pesquisa. Ao longo do tempo constatei que os alunos encontraram duas formas de perceber isso: 1 - Teoricamente (após estudo minucioso do caso de ensino) e 2 - Empiricamente (após fazer os gráficos e tabelas, eles percebem que não há associação entre as variáveis). Assim o(a) aluno(a) deve descartar essas variáveis.
 
 
-
-
-
-
-
-```{r, eval=FALSE}
-
 Aqui devo compartilhar um aprendizado que tive com um aluno. Ele me disse que descartou a variável desempenho também. Quando eu pedi para ele fundamentar o motivo dele descartar essa variável, ele me disse:
 
 > "O desempenho é uma avaliação SUBJETIVA. isto é uma nota de zero a dez dada pelo chefe dele. Assim, se tiver casos de discriminação racial na escola, essa variável estaria contaminada pela discriminação. Melhor usar a variável anos de trabalho."
 
 Perfeito! Nunca tinha pensado nisso.
 
-```
-
-
-
 
 Assim, para a análise do salário na próxima etapa, ficamos com as variáveis: 'Grau de Pagamento','Raça', e 'Anos trabalho'. 
 
-Em uma análise exploratória, poderíamos fazer o cruzamento do salário com cada uma delas e perceber que elas estão relacionadas com o salário. Inclusive, nesse momento percebemos que no cruzamento há uma relação entre a raça e o salário que sugere que a afirmação do João está correta.
-
-Complicado, né?!? Todavia, essa parece ser uma análise muito simplista. 
-
-Nesse banco de dados temos interação entre as variáveis.
-
-Lembra que o "programa de ação afirmativa iniciado pelo Colégio e Curso Oliveira há dois anos atrás". Há relação entre as variáveis raça,anos de trabalho e grau de pagamento. 
-
-A ação afirmativa começõu há dois anos e está diretamente relacionada com o tempo de serviço. Já a progressão funcional está relacionada com o tempo de serviço. Assim, devemos ver o conjunto dessas variáveis no salario.
-
-Nesse momento, a pergunta é:
-
-Dado que existem dois professores com o mesmo tempo de empresa e no mesmo nível de grau de pagamento 1, qual a diferença de salario médio entre minoria e não minoria?  Em outras palavras, controlando pelas variáveis tempo de empresa e grau de pagamento, qual o impacto da variável da variável raça no salário?
+Em uma análise exploratória, poderíamos fazer o cruzamento do salário com cada uma delas e perceber que elas estão relacionadas com o salário. Inclusive, nesse momento percebemos que no cruzamento há uma relação entre a raça e o salário que sugere que a afirmação do João está correta. isso pode ser realizado com o código abaixo.
 
 ```{r}
+library(ggplot2)
+ggplot(banco_de_dados) +
+ aes(x = raca, y = salario) +
+ geom_boxplot(fill = "#112446") +
+ theme_minimal()
 
-# nível com os gráficos do R-base 
-
-hist(banco_de_dados$salario)
-
-# nível avançado com uso do ggplot2
+library(flextable)
+banco_de_dados %>% group_by(raca) %>% summarise(média=mean(salario)) %>% flextable()
 
 ```
 
-INSERIR AQUI OS GRAFICOS
+Complicado, né?!? Aparentemente tem uma diferença de R$ 251,00 entre os salários médios. Todavia, essa parece ser uma análise muito simplista. 
 
-INSERIR AQUI O MODELO DE REGRESSÃO
+Nesse banco de dados temos interação entre as variáveis. Não podemos comparar somente a raça e o salário sem saber se é o diretor da escola com 20 anos de empresa com um professor contratado na semana passada. Devemos levar em conta progressão funcional e o tempo de serviço. 
 
+Lembra que o "programa de ação afirmativa iniciado pelo Colégio e Curso Oliveira há dois anos atrás". Há relação entre as variáveis raça,anos de trabalho e grau de pagamento. 
 
-### 5. *exemplos de relatorios de alunxs*
+A ação afirmativa começou há dois anos e está diretamente relacionada com o tempo de serviço. Já a progressão funcional está relacionada com o tempo de serviço.  Assim, devemos ver o conjunto dessas variáveis no salário.
 
-com essa atividade, os alunos conseguiram fazer isso aquilo e isso outro falar que será um banco de dados
+```{r}
+library(ggplot2)
+ggplot(banco_de_dados) +
+ aes(x = raca, y = salario, fill = grau_pagamento) +
+ geom_boxplot() +
+ geom_jitter() +
+ scale_fill_hue(direction = 1) +
+ theme_minimal() +
+ facet_wrap(vars(grau_pagamento))
 
-<https://dataunirio.github.io/Trabalhos_alunos_UNIRIO/avaliacao_da_disciplina/index.html>
+```
+
+Aqui podemos ver que, controlando pelo grau de pagamento, o salário de Brancos e Não-Brancos tem valores das medianas muito parecidas.
+
+Assim, nesse momento, a nossa pergunta de pesquisa deve mudar para:
+
+Dado que existem dois professores com o mesmo tempo de empresa e no mesmo nível de grau de pagamento 1, qual a diferença de salario médio entre um branco e um não branco?  Em outras palavras, controlando pelas variáveis tempo de empresa e grau de pagamento, qual o impacto da variável da variável raça no salário? Ou ainda: Qual a diferença de salário entre o branco e o não-branco quando ambos têm 10 anos de empresa e estão na mesma posição (funcionário sênior)? 
+
+```{r}
+banco_de_dados %>% group_by(grau_pagamento,raca) %>% summarise(média=mean(salario), mediana=median(salario)) %>% flextable()
+
+```
+
+Finalmente, podemos fazer um modelo linear com o salário como variável dependente.
+```{r}
+modelo <- lm(salario ~ grau_pagamento+raca+anos_trabalho,data = banco_de_dados) 
+
+```
+
+Ao fazer a regressão para controlar o efeito das variáveis tempo de empresa e grau de pagamento, podemos investigar o impacto da variável raça no salário. Uma ótima abordagem para isso é usar gráficos para mostrar o efeito de uma variável em um modelo. Vou mostrar uma análise com o R-base e com o ggplot2.
+
+```{r}
+# nível com os gráficos do R-base 
+library("effects")
+e1 <- predictorEffect("raca", modelo)
+plot(e1)
+
+# nível avançado com uso do ggplot2
+library('jtools')
+effect_plot(model = modelo, pred = raca)
+
+```
+
+Assim, quando retirado o efeito das variáveis tempo de empresa e grau de pagamento, podemos observar que o Não-Branco tem um salário previsto maior que um branco. 
+
+Todavia, não posso deixar de comentar que devemos desenvolver um diagnóstico sobre os pressupostos de um modelo de regressão. Isso pode ser realizado com o código abaixo.
+
+```{r}
+par(mfrow = c(2, 2))
+plot(modelo)
+```
+
+Agora, devemos escrever um parecer para o Sr. Oliveira mostrando os resultados e fundamentando a análise.
 
 ## 5. Conclusão
 
-no futuro, buscarei colocar algumas variaveis irrelevantes para que o aluno possa separar variáveis pouco importantes de variáveis mais fundamentais
+Neste capítulo, busquei mostrar como a integração dos casos de ensino com a autoria utilizando R permite apresentar a Estatística como uma importante ferramenta para área de administração pública.
 
-\#\#Referências 
+Reafimo que nesse exemplo, o objetivo não é conseguir encontrar o valor correto na aplicação de uma fórmula decorada, mas sim utilizar o método quantitativo como um instrumento para orientar o processo de tomada de decisão na administração pública.  Espero que com o caso de ensino da escola oliveira, eu tenha alcançado esse objetivo.
+
+Finalmente, não posso me despedir e terminar esse texto sem falar que com essa abordagem conseguimos apresentar os melhores trabalhos dos alunos(as) das disciplinas de Estatística da UNIRIO em congressos e revistas acadêmicas. 
+
+Até a próxima!
+
+# Referências 
 
 1.Roesch, Sylvia Maria Azevedo Notas sobre a construção de casos para ensino. Revista de Administração Contemporânea [online]. 2007, v. 11, n. 2 [Acessado 27 Outubro 2021] , pp. 213-234. Disponível em: <https://doi.org/10.1590/S1415-65552007000200012>. Epub 18 Jan 2008. ISSN 1982-7849. <https://doi.org/10.1590/S1415-65552007000200012>.
 
 2. D. Nolan and T.P. Speed Teaching Statistics Theory Through Applications, August 1999
 
-```{=html}
-<!--
-
-## 2. Etapas do projeto
-
-### 2.1. Coleta dos dados
-
-Os dados utilizados neste projeto são oriundos da plataforma [Kaggle](https://www.kaggle.com/), que fornece diversos conjuntos de dados, cursos e competições em ciência de dados.
-
-> **Dica**: recomenda-se, nesta etapa, que o docente apresente a plataforma e suas potencialidades. É importante também informar que, para acessar os dados, é preciso estar cadastrado na plataforma.
-
-Para a coleta do banco de dados, acesse o link <https://www.kaggle.com/fedesoriano/stroke-prediction-dataset> e, em seguida, clique no botão `Download`.
-
-![](%5CLivro%20DMQ%5Ckaggle.png)
-
-Escolha a pasta de destino e um arquivo `.zip` será baixado. Extraia os dados na pasta escolhida e o arquivo `healthcare-dataset-stroke-data.csv` estará disponível.
-
-Ainda na mesma página do Kaggle, as informações sobre as variáveis estão presentes na seção *Description*, no item *Attribute Information*.
-
-![](C:%5CUsers%5CLeticia%5CGoogle%20Drive%5CUNIRIO%5CLivro%20DMQ%5Cvariaveis.png) Traduzindo as informações, temos as seguintes variáveis:
-
-1)  **id**: identificador único
-2)  **gender**: gênero, "Male" (Masculino), "Female" (Feminino) ou "Other" (Outro)
-3)  **age**: idade do paciente
-4)  **hypertension**: 0 se o paciente não tem hipertensão, 1 se o paciente tem hipertensão
-5)  **heart_disease**: 0 se o paciente não tem doença cardíaca, 1 se o paciente tem doença cardíaca
-6)  **ever_married**: "No" (Se nunca casou) or "Yes" (Se já se casou)
-7)  **work_type**: tipo de trabalho, "children" (Filhos), "Govt_jov" (Governo), "Never_worked" (nunca trabalhou), "Private" (Privado) or "Self-employed" (Autônomo)
-8)  **Residence_type**: tipo de residência, "Rural" (Rural) or "Urban" (urbano)
-9)  **avg_glucose_level**: nível médio de glicose no sangue
-10) **bmi**: índice de massa corporal
-11) **smoking_status**: "formerly smoked" (Ex-fumante), "never smoked" (Nunca fumou), "smokes" (Fumante) or "Unknown" (Informação não disponível)
-12) **stroke**: 1 se o paciente teve um AVC ou 0 se não
-
-### 2.2. Leitura dos dados no R
-
-Após a etapa anterior, o aluno terá o primeiro contato com os dados no software R. Por se tratar de um arquivo `.csv`, recomenda-se a utilização da função [`read.csv`](https://www.rdocumentation.org/packages/utils/versions/3.6.2/topics/read.table). Os dados estão separados por vírgula (`sep = ","`) e a primeira linha traz o nome das variáveis (`header = T`).
-
-> **Dica**: por se tratar de um projeto extenso, é importante a definição de um diretório de trabalho para que todos os arquivos a serem lidos ou exportados sejam armazenados na mesma pasta. A função para isso é a [`setwd`](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/getwd).
-
-```{r, message=FALSE,warning=FALSE}
-# Definindo o diretorio
-#setwd("C:\\Users\\Leticia\\Google Drive\\UNIRIO\\Livro DMQ")
-
-# Lendo os dados
-#avc <- read.csv("C:\\Users\\Leticia\\Google Drive\\UNIRIO\\Livro DMQ\\healthcare-dataset-stroke-data.csv",
-#                    header = T,
-#                    sep = ",")
-```
-
-### 2.3. Pré-processamento dos dados no R
-
-Após a leitura dos dados, é a etapa de pré-processamento. Nesta fase o aluno colocará em prática conhecimentos teóricos, como a classificação de variáveis, e avaliará a qualidade dos dados.
-
-A partir da função [`str`](https://www.rdocumentation.org/packages/utils/versions/3.6.2/topics/str), é possível ver o tamanho do banco e como as variáveis foram codificadas e estão sendo interpretadas pelo R.
-
-```{r, message=FALSE,warning=FALSE}
-# Vendo a estrutura dos dados
-#str(avc)
-```
-
-A função mostra que o banco `avc` possui 5110 observações e 12 colunas. As variáveis foram interpretadas pelo R como:
-
-1)  **id**: int - número inteiro
-2)  **gender**: chr - caracter (cada elemento do vetor é uma sequência de um ou mais caracteres)
-3)  **age**: num - numérico (real ou decimal)
-4)  **hypertension**: int - número inteiro
-5)  **heart_disease**: int - número inteiro
-6)  **ever_married**: chr - caracter
-7)  **work_type**: chr - caracter
-8)  **Residence_type**: chr - caracter
-9)  **avg_glucose_level**: num - numérico (real ou decimal)
-10) **bmi**: chr - caracter
-11) **smoking_status**: chr - caracter
-12) **stroke**: int - número inteiro
-
-Nesta etapa, o aluno deve-se questionar quais variáveis foram codificadas de forma errada e se alguma ou mais colunas podem ser eliminadas por não fazerem sentido ao projeto ou por fazerem apenas o papel de identificador das linhas. Neste caso, a coluna `id` desempenha este papel. Para isso, o aluno pode atribui-la como nome das linhas e, em seguida, exclui-la do banco de dados. A função [`rownames`](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/row+colnames) pode ser usada para este objetivo.
-
-```{r, message=FALSE,warning=FALSE}
-# Atribuindo a coluna id como nome das linhas
-#rownames(avc) <- avc$id
-
-# Excluindo a coluna id
-#avc$id <- NULL
-```
-
-Em seguida, o aluno deverá classificar as variáveis e identificar quais delas não foram interpretadas corretamente pelo R. A partir do conhecimento teórico adquirido, ele saberá que uma codificação errada desencadeará em erros consecutivos na análise de dados.
-
-> **Dica**: aproveite esta etapa do projeto para revisar as classificações de variáveis. Se preferir, este [vídeo](https://www.youtube.com/watch?v=IPRmXE5SREA&list=PLDoqBsM6cBJYzQHCWMCCSaKhXCk00ppfO&index=2) pode ser compartilhado com os alunos para ajudá-los a lembrar o conteúdo. 
-
-Assim, espera-se as seguintes classificações:
-
-2)  **gender**: variável qualitativa nominal binária
-3)  **age**: variável quantitativa razão contínua
-4)  **hypertension**: variável qualitativa nominal binária
-5)  **heart_disease**: variável qualitativa nominal binária
-6)  **ever_married**: variável qualitativa nominal binária
-7)  **work_type**: variável qualitativa nominal policotômica
-8)  **Residence_type**: variável qualitativa nominal binária
-9)  **avg_glucose_level**: variável quantitativa razão contínua
-10) **bmi**: variável quantitativa razão contínua
-11) **smoking_status**: variável qualitativa nominal policotômica
-12) **stroke**: variável qualitativa nominal binária
-
-Ao comparar com o resultado fornecido pelo R, vemos que as variáveis **hypertension**, **heart_disease**, **bmi** e **stroke** foram codificadas de forma errada.
-
-Por terem sido representadas pelos números 0 e 1, o R interpretou as variáveis **hypertension**, **heart_disease**, e **stroke** como quantitativas. Logo, devemos transformá-las para qualitativa. A função a ser usada poderá ser a [`as.factor`](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/factor). A codificação fator é a melhor opção para representar uma variável qualitativa e, por isso, também transformaremos as variáveis **gender**, **ever_married**, **work_type**, **Residence_type** e **smoking_status** de `chr` para `factor`.
-
-Para facilitar a tarefa, a função [`mutate_all`](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8/topics/mutate) do pacote `dplyr` pode ser utilizada, pois ela transforma várias variáveis ao mesmo tempo. A função `str` pode ser novamente usada para ver as modificações.
-
-```{r, message=FALSE,warning=FALSE}
-# Transformando para factor
-#library(dplyr)
-#avc[,c(1,3:7,10,11)] <- avc[,c(1,3:7,10,11)] %>% mutate_all(as.factor)
-
-# Vendo a estrutura dos dados
-#str(avc)
-```
-
-> **Dica**: para que as tabelas e gráficos a serem preparados em etapas posteriores sejam autoinformativos, sugere-se a modificação das categorias das variáveis qualitativas para nomes mais compreensíveis. Essa etapa pode ser realizada pela função [`levels`](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/levels). As mudanças devem seguir a ordem que o R apresenta as categorias. Por isso, recomenda-se rodar primeiramente a função `levels` para ver a ordem dos níveis antes de realizar a substituição.
--->
-```
-```{r, message=FALSE,warning=FALSE}
-# Mudando os nomes das categorias
-#<!-- levels(avc$gender) <- c("Feminino", "Masculino", "Outro") -->
-#<!-- levels(avc$hypertension) <- c("Não", "Sim") -->
-#<!-- levels(avc$heart_disease) <- c("Não", "Sim") -->
-#<!-- levels(avc$ever_married) <- c("Não", "Sim") -->
-#<!-- levels(avc$work_type) <- c("Filhos", "Governo", "Nunca trabalhou", "Privado", "Autônomo") -->
-#<!-- levels(avc$Residence_type) <- c("Rural", "Urbano") -->
-#<!-- levels(avc$smoking_status) <- c("Ex-fumante", "Nunca fumou", "Fuma", NA) # a informacao nao disponivel foi codificada como NA -->
-#<!-- levels(avc$stroke) <- c("Não", "Sim") -->
-```
-
-```{=html}
-<!-- 
-Após lidar com as variáveis qualitativas, o aluno precisa ainda corrigir a variável **bmi**. Apesar de ser numéria, o R codificou-a como caracter. Isso se deve à presença de uma palavra entre os valores. Quando isso acontece, o R entende que aquela coluna contém caracteres e assim a codifica. Mas este não era o caso. Para verificar, vamos ver as 20 primeiras linhas da variável com a função [`head`](https://www.rdocumentation.org/packages/utils/versions/3.6.2/topics/head).
-
-```{r, message=FALSE,warning=FALSE}
-#head(avc$bmi, 20)
-```
-
-Podemos observar que por conta do "N/A", o R interpretou a variável como caracter. Nesta etapa, o aluno deve então ser capaz de transformar esse dado ausente em `NA` e, em seguida, transformar a variável em numérica com a função [`as.numeric`](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/numeric).
-
-```{r, message=FALSE,warning=FALSE}
-# Transformando os "N/A" da variavel bmi em NA
-#avc$bmi[avc$bmi == "N/A"] <- NA
-
-# Transformando a variavel bmi em numerica
-#avc$bmi <- as.numeric(avc$bmi)
-```
-
-Após o pré-processamento de dados, o aluno deverá ser capaz de chegar na seguinte estrutura:
-
-```{r, message=FALSE,warning=FALSE}
-#str(avc)
-```
--->
-```
