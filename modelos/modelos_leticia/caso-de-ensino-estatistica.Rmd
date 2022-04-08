@@ -23,9 +23,22 @@ Esse texto é dedicado aos estudantes de estatística da UNIRIO e aos meus (espe
 
 Essa minha experiência com eles me diz que há uma necessidade real de mostrar como a disciplina de estatística é uma parte essencial do currículo profissional dos novos gestores públicos. Isso me fez tentar traduzir as fórmulas matemática da área da estatística em objetivos pedagógicos aplicados. Assim, esse texto é o resultado da minha abordagem pessoal aos conceitos desenvolvidos no coração do Departamento de Métodos Quantitativos da UNIRIO.
 
-Assim, começo dizendo que tentei mudar o modo que a estatística fosse percebida pelos estudantes. Busquei fazê-la de forma totalmente aplicada. Tentei mostrá-la como uma importante ferramenta da administração pública.
+Assim, começo dizendo que tentei mudar o modo que a estatística fosse percebida pelos estudantes. Busquei fazê-la de forma totalmente aplicada. Tentei mostrá-la como uma importante ferramenta da administração pública. Acredito que isso leva a uma integração da teoria com a prática de uma forma que não encontrada em um curso de graduação.
 
-O objetivo não era conseguir encontrar o valor correto de uma conta/cálculo de estatística, mas sim utilizar o método quantitativo como um instrumento para orientar o processo de tomada de decisão na administração pública. Acredito que desse modo o estudante não só aprenderá a estatística, mas deverá preservar o pensamento estocástico e reconhecer como e quando aplicar esses conceitos na sua vida profissional décadas depois de passar por esse semestre.
+O objetivo não era conseguir encontrar o valor correto de uma conta/cálculo de estatística, mas sim utilizar o método quantitativo como um instrumento para orientar o processo de tomada de decisão na administração pública. Acredito que, desse modo, o estudante não só aprenderá a estatística, mas deverá preservar o pensamento estocástico e reconhecer como e quando aplicar esses conceitos na sua vida profissional décadas depois de passar por esse semestre.
+
+Essa abordagem levanta perguntas científicas que são interessantes e eles contêm conjuntos de dados para uso em endereçamento essas perguntas. O contexto da questão científica é o ponto de partida para o desenvolvimento da teoria estatística (Nolan,D. and Speed,T.P.; 1999).
+
+O modelo proposto aqui é projetar casos de ensino com problemas de pesquisa que tem contexto com maior profundidade do que a maioria dos textos estatísticos, possibilitando investigações e análises no contexto de um problema científico, e desenvolvimento teórico detalhado dentro da sala de aula. Um objetivo importante dessa abordagem é incentivar e desenvolver o pensamento estatístico. Também é defendido que os laboratórios sejam feitos a peça central do curso teórico.
+
+Como resultado, a avaliação foi completamente reestruturada. Por exemplo, o trabalho a ser apresentado ao final do curso inclui análises de dados abertas e incluem trabalho em grupo e discussões sobre os estudos de caso.
+
+Assim, com as aulas tradicionais de Estatística Matemática pode ser difícil para os(as) alunos(as) fazer a transição da leitura e compreensão de uma análise estatística em um livro didático para trabalhar com a Estatística em sua pesquisa, no seu TCC ou na sua vida profissional.
+
+Assim, coloquei descrições detalhadas dos dados para colocar o problema em contexto, e
+sugestões de como proceder na análise.  Isso permitiu que o caso de ensino a peça central do curso de pensamento estatístico, não só um acompanhamento secundário das demostrações de fórmulas.
+
+Como resultado dessa reestruturação visando os casos de ensino, várias mudanças ocorreram no curso. O formato das avaliações mudou. Mais tempo foi gasto para determinar como tomar decisão orientada a dados com análises estatísticas e sobre a construção de um método estatístico para sua aplicação em um problema específico. Assim, o um tempo menor foi gasto cobrindo a demostração de fórmulas para ilustrar uma técnica estatística.
 
 #### O funcionário Johnnson e o professor João
 
@@ -38,7 +51,7 @@ Não é que a abordagem de aplicação de formulas e fazer contas estatística "
 
 Os livros didáticos tradicionais de estatística buscam enfatizar o processo de encontrar a resposta certa em um determinado intervalo de confiança (95%/99% de confiança). Muitas vezes, essa abordagem não tem nenhum contexto do motivo para a construção desse intervalo. Esse tipo de método tende a valoriza o cálculo e a memorização das fórmulas. O objetivo geralmente é a aplicação correta de procedimentos estatísticos para encontrar a resposta numérica correta. Neste caso, o limite inferior e superior do intervalo de confiança. Você sabe o que estou dizendo. Todos nós passamos por isso como alunos e como professores.
 
-Nesta abordagem, no lugar do objetivo ser conseguir a resposta correta em uma aplicacao das contas e análise estatística, o objetivo, muitas vezes, é entender a situação problema da gestão pública e resolver um problema real no processo de tomada de decisão em situações tipicas da administração/gestão.
+Na abordagem por caso de ensino, no lugar do objetivo ser conseguir a resposta correta em uma aplicacao das contas e análise estatística, o objetivo, muitas vezes, é entender a situação problema da gestão pública e resolver um problema real no processo de tomada de decisão em situações tipicas da administração/gestão.
 
 Neste projeto, busco dar aos estudantes a oportunidade de trabalhar com um caso de estudo representativo do mundo real que exige do estudante a identificação do problema a ser abordado, bem como indentificar quais são as informações relevantes e não relevantes. De forma ainda mais clara: esta abordagem precisa que o estudante "mergulhe direto nos dados" para definir o problema, desenvolver alternativas de gestão e recomendar uma solução. 
 
@@ -48,11 +61,11 @@ Neste projeto, busco dar aos estudantes a oportunidade de trabalhar com um caso 
 > I have no data yet. It is a capital mistake to theorize before one has data.(Sherlock Holmes)
 > Eu não tenho dados ainda. É um erro capital teorizar antes de se ter dados. (Sherlock Holmes)
 
-Acredito que esse destaque todo na busca pela resposta numérica correta falha com a importante contribuição que a estatistica pode dar ao processo de tomada de decisão pelo gestor público. PETERS e GRAY (1994) afirmam que se buscarmos a resposta correta do estudante, falhamos em entender o motivo pelo qual o conhecimento estatístico pode ser útil na area de administração (como conhecimento estatístico deve ser utilizado). Eles também dizem que falhamos em entender como esse conhecimento pode ajudar no processo de tomada de decisão em situações administrativas do mundo real. E completam: falhamos em mostrar o valor do conhecimento estatístico e isso sempre levará ao alunx a questionar a relevancia da estatística para a sua área (não poderia concorda mais com eles).
+Acredito que esse destaque todo na busca pela resposta numérica correta falha com a importante contribuição que a estatistica pode dar ao processo de tomada de decisão pelo gestor público. PETERS e GRAY (1994) afirmam que se buscarmos a resposta correta do estudante, falhamos em entender o motivo pelo qual o conhecimento estatístico pode ser útil na area de administração (como conhecimento estatístico deve ser utilizado). Os autores também dizem que falhamos em entender como esse conhecimento pode ajudar no processo de tomada de decisão em situações administrativas do mundo real. E completam: falhamos em mostrar o valor do conhecimento estatístico e isso sempre levará ao alunx a questionar a relevancia da estatística para a sua área (não poderia concorda mais com eles).
 
 #### Para além da estatística
 
-No lugar de encontrar a resposta numérica correta em uma prova de estatistica, o uso desta metodologia permite ao aluno não só estudar a Estatística em si, mas também aprender a programar na linguagem R, bem como adquirir experiência em uso de bancos de dados, planilhas, apresentações, e arquivos Markdown (arquivos para uso na web). Acredito que assim ele estará mais preparado para a vida cidadã, vida acadêmica, e para a sua vida profissional.
+No lugar de encontrar a resposta numérica correta em uma prova de estatistica, o uso desta metodologia permite ao aluno não só estudar a Estatística em si, mas também aprender a programar na linguagem R, bem como adquirir experiência em uso de bancos de dados, planilhas, apresentações, e arquivos Markdown (arquivos para uso na web). Acredito que assim ele estará mais preparado para a vida cidadã, para a vida acadêmica, e para a sua vida profissional.
 
 > Entender Estatística é essencial aos cidadãos das sociedades atuais: para ser crítico em relação à informação disponível na sociedade, para entender e comunicar com base nessa informação, mas, também, para tomar decisões, uma vez que uma grande parte da organização dessas mesmas sociedades tem por base esses conhecimentos. (Shaughnessy, 1992, 1996).
 
@@ -62,11 +75,11 @@ Mariano Pimentel e Felipe Carvalho (2021) afirmam que há um equívoco entre o a
 
 O ato de examinar efetivada por prova valoriza uma leitura mecânica. Isto é, porque assim o desafio passa a ser a memorização do texto. Se o estudante consegue decorar, terá respondido ao desafio da disciplina.
 
-Leandro Karnal diz algo parecido. Ele descreve uma situação em que substitui um outro professor de filosofia. Diz ele:
+Leandro Karnal diz algo parecido em seu livro. Ele descreve uma situação em que substitui um outro professor de filosofia. Diz ele:
 
-> A pergunta da prova geralmente é parecida com à dada em sala de aula. Apesar de apenas trabalhar com a memória, o método tem um certo prestigio com os alunos. **a prova seria exatamente o esperado**. Fácil, seguro e quase inutil na minha visão. Ninguém achava aquelas informações úteis  ou interessantes (Leandro Karnal p. 54).
+> A pergunta da prova geralmente é parecida com à dada em sala de aula. Apesar de apenas trabalhar com a memória, o método tem um certo prestigio com os alunos. **a prova seria exatamente o esperado**. Fácil, seguro e quase inutil na minha visão. Ninguém achava aquelas informações úteis ou interessantes (Leandro Karnal p. 54).
 
-De forma oposta à prova, nesta abordagem busco o ato de avaliar. Isto é, o desenvolvimento de um projeto  autoral (CARVALHO;PIMENTEL, 2020) para promover o letramento em Estatística e a capacidade de criar discursos em estatística para atuar no mundo. Nesse sentido, os alunos utilizam os conceitos da estatística para criar o discurso em estatística.
+De forma oposta à prova, nesta abordagem busco o ato de avaliar. Isto é, o desenvolvimento de um projeto autoral (CARVALHO;PIMENTEL, 2020) para promover o letramento em Estatística e a capacidade de criar discursos em estatística para atuar no mundo. Nesse sentido, os alunos utilizam os conceitos da estatística para criar o discurso em estatística.
 
 Tento criar tanto nas aulas quanto na avaliação um espaço para praticar o diálogo com objetivo de desenvolver discursos em Estatística. Também tento perceber como os estudantes estão empregando o vocabulário da linguagem Estatística.  Assim. a linguagem de programação R permite que o processo de estudo da estatística deixa de ser apenas um técnica e passa a ser parte do processo de construção do conceito.
 
@@ -80,16 +93,16 @@ Este capítulo tem como objetivo apresentar um projeto autoral de análise de da
 
 A atividade envolve a defesa de uma posição pelo aluno sobre a situação problema. Assim, nessa atividade, buscamos: 
 
-1. a identificação da situação-problema\    
-2. a formulação de perguntas de pesquisa/hipóteses,\    
-3. análise exploratória inicial dos dados,\    
-4. depuração de erros na base de dados/busca por outliers/limpeza e higenização dos dados,    
-5. refazer a análise exploratória após a limpeza dos dados,\   
-6. escolha de um teste de hipóteses adequado,\   
-7. avaliação das condições minimas para o teste de hipoteses\   
-8. aplicação de testes de hipóteses/ realização do procedimentos\   
-9. interpretação dos resultados.\   
-10. escrita de um parecer com base no teste de hipoteses   
+1. a identificação da situação-problema,       
+2. a formulação de perguntas de pesquisa hipóteses,      
+3. análise exploratória inicial dos dados,       
+4. depuração de erros na base de dados/busca por outliers/limpeza e higenização dos dados,       
+5. refazer a análise exploratória após a limpeza dos dados,      
+6. escolha de um teste de hipóteses adequado,      
+7. avaliação das condições minimas para o teste de hipoteses       
+8. aplicação de testes de hipóteses/ realização do procedimentos      
+9. interpretação dos resultados.     
+10. escrita de um parecer com base nos resultados do teste de hipoteses   
 
 ### 1.3. Público-alvo
 
@@ -101,37 +114,33 @@ Alunos das ciências humanas e sociais, com enfase nos cursos de Administração
 
 Casos para ensino em Administração Pública são relatos de situações da vida organizacional, construídos com propósitos educacionais específicos (Roesch,2007). Assim, nesse caso, a estrutura e o processo de redação de casos para ensino fundamenta-se em 03 (três) grandes pilares:
 
--   o desenvolvimento do caso-problema e
--   a narração da contextualização da forma interessante
+-   o desenvolvimento do caso-problema,
+-   a narração da contextualização da forma interessante,
 -   o conflito entre os atores/personagens
 
-O caso-problema não é apenas a descrição de eventos ou problema. Ele contém uma história. Por isso, apesar que criar um bom caso de estudo devemos recorrer à literatura de ficção. Pessoalmente, eu gosto muito da ideia de estudar teatro como Shakespeare, Agusto Boal e Grotowski para construir casos de estudos e resolver os problemas narrativos decorrentes da estrutura proposta pelo caso-problema.
+O caso-problema não é apenas a descrição de eventos ou problema. Ele contém uma história. Por isso, apesar que criar um bom caso de estudo devemos recorrer à literatura de ficção. Pessoalmente, eu gosto muito da ideia de estudar teatro como Shakespeare, Augusto Boal e Grotowski para construir casos de estudos e resolver os problemas narrativos decorrentes da estrutura proposta pelo caso-problema.
 
-Assim, em um caso, o relato da situação-problema pode ser orientado por perguntas, tais como: Qual o problema? Quais as partes envolvidas? Que reações estão sendo manifestadas? Que soluções estão sendo propostas? Que resultados foram atingidos? Que novos problemas se originaram de tais soluções? (Roesch,2007)
+Assim, em um caso de ensino, o relato da situação-problema pode ser orientado por perguntas, tais como: Qual o problema? Quais as partes envolvidas? Que reações estão sendo manifestadas? Que soluções estão sendo propostas? Que resultados foram atingidos? Que novos problemas se originaram de tais soluções? (Roesch,2007)
 
 O método do caso para ensino em Administração é um material didático que não se popularizou na universidade brasileira e poucos professores utilizam casos-problema em sala de aula. (Roesch,2007)
 
 ### 2.1. O conflito entre os personagens e o problema de pesquisa
 
-"as controvérsias que proporcionam diferentes interpretações"
+> "as controvérsias que proporcionam diferentes interpretações"
 
-Aqui devemos ter pelo menos duas posições antagônicas. Devemos ter um conflito entre os os dois personagens do caso de estudo. Buscamos com isso que o aluno se posicione por uma das posições sobre o assunto. Esse posicionamento deverá ser fundamentado pela análise estatística.
+Aqui devemos ter pelo menos duas posições antagônicas. Devemos ter um conflito entre os os dois personagens do caso de estudo. Buscamos com isso que o(a) aluno(a) se posicione por uma das posições sobre o assunto. Esse posicionamento deverá ser fundamentado pela análise estatística.
 
 ## 2.2. A autoria do relatório e o letramento estatístico
 
-Aqui o aluno tem que escrever um parecer fundamentado na análise estatística para algum personagem do caso de ensino. geralmente, o personagem é o(a) seu chefe. Desse modo, busca-se proporcionar ao alunx uma viagem de descoberta pelo metodo cientifico para fundamentar a sua análise.
+Aqui, o aluno tem que escrever um parecer fundamentado na análise estatística para algum personagem do caso de ensino. geralmente, o personagem é o(a) seu chefe. Desse modo, busca-se proporcionar ao alunx uma viagem de descoberta pelo metodo cientifico para fundamentar a sua análise.
 
-Nesse sentido, ao final do caso de ensino é preciso que o alunx expresse o que foi aprendido. Vejo que  
-
-O parecer/posicionamento do alunxs
-
-aqui o aluno deverá construir um plano de ação.
+Nesse sentido, ao final do caso de ensino é preciso que o alunx expresse o que foi aprendido em um parecer/posicionamento do alunxs e construção de um plano de ação.
 
 ## 3. Casos de ensino -- Exemplos Aplicados na estatística
 
 Colégio e Curso Oliveira
 
-Tudo começou pacificamente. Johnson, um dos professores do Colégio e Curso Oliveira, perguntou a Washington e Michel quanto cada um recebia de salário. Foi uma pergunta inocente e a resposta sugeriu que os três estavam exercendo a mesma função e recebendo os mesmos salários. Ninguém parecia interessado. Então, Michel disse que tinha recebido um memorando da Secretária do colégio em que todos os salários do departamento foram listados e notou algo engraçado. Os salários dos três estavam entre os mais baixos da lista. De fato, observou Michel, quase todos os negros do colégio estavam na metade inferior da lista.
+Tudo começou pacificamente. João, um dos professores do Colégio e Curso Oliveira, perguntou a Washington e Michel quanto cada um recebia de salário. Foi uma pergunta inocente e a resposta sugeriu que os três estavam exercendo a mesma função e recebendo os mesmos salários. Ninguém parecia interessado. Então, Michel disse que tinha recebido um memorando da Secretária do colégio em que todos os salários do departamento foram listados e notou algo engraçado. Os salários dos três estavam entre os mais baixos da lista. De fato, observou Michel, quase todos os negros do colégio estavam na metade inferior da lista.
 
 Surgiu então entre os três, a dúvida se o Colégio e Curso Oliveira praticava discriminação contra as minorias. Esta discussão permaneceu durante toda a semana. E a cada dia alguém trazia alguma informação sobre as outras filiais do colégio de todo o país. Estas informações continuavam a sugerir que as minorias, não somente os empregados negros, mesmo exercendo a mesma função não estavam recebendo os mesmos salários que os empregados brancos. Eles tinham a informação de mais quatro unidades do colégio que sugeria, quando calculada a média, que as minorias estavam recebendo R$ 250,00 a menos que os empregados brancos. 
 
@@ -147,19 +156,19 @@ João, escoltado por seus dois amigos, foi ver o Kirk, o administrador do depart
 
 Previsivelmente, João achou ofensivo o conteúdo e o tom dos comentários de Kirk. Junto com Washington e Post, eles organizaram um pequeno grupo de minorias que ameaçaram visitar o escritório de reclamações do CIOE a fim de prosseguir com suas convicções de que o Colégio e Curso Oliveira pratica política discriminatória de pagamento de salários.
 
-Rodrigo Oliveira, dono do Colégio e Curso Oliveira, agendou uma reunião com João, Washington e Post, naquela tarde. Foi uma conversa mais tranquila. Greer iniciou pedindo a eles para explicar suas preocupações. João expôs os fatos e, adicionalmente, informou como foram tratados por Kirk.
+Rodrigo Oliveira, dono do Colégio e Curso Oliveira, agendou uma reunião com João, Washington e Post, naquela tarde. Foi uma conversa mais tranquila. Oliveira iniciou pedindo a eles para explicar suas preocupações. João expôs os fatos e, adicionalmente, informou como foram tratados por Kirk.
 
-Greer respondeu assegurando aos três que no Colégio e Curso Oliveira não há discriminação contra ninguém. Ele repetiu a mensagem dita por Kirk sobre como os salários são determinados, mas sem o tom ofensivo. Naturalmente, Mr. Greer delineou o voluntário programa de ação afirmativa iniciado pelo Colégio e Curso Oliveira há dois anos atrás, como apenas um exemplo da filosofia de que o colégio valoriza o que a pessoa faz em seu trabalho independentemente de raça ou gênero. João estava disposto a escutar sobre a política de salários e falar sobre o programa de contratação afirmativa, mas continuou a focar na aparente diferenças salariais que ocorre apesar das políticas implementadas. E insistiu que a igualdade salarial deve ser alcançada e, portanto, não abandona sua posição quanto à discriminação existente. 
+Oliveira respondeu assegurando aos três que no Colégio e Curso Oliveira não há discriminação contra ninguém. Ele repetiu a mensagem dita por Kirk sobre como os salários são determinados, mas sem o tom ofensivo. Naturalmente, Mr. Greer delineou o voluntário programa de ação afirmativa iniciado pelo Colégio e Curso Oliveira há dois anos atrás, como apenas um exemplo da filosofia de que o colégio valoriza o que a pessoa faz em seu trabalho independentemente de raça ou gênero. João estava disposto a escutar sobre a política de salários e falar sobre o programa de contratação afirmativa, mas continuou a focar na aparente diferenças salariais que ocorre apesar das políticas implementadas. E insistiu que a igualdade salarial deve ser alcançada e, portanto, não abandona sua posição quanto à discriminação existente. 
 
-Greer prometeu a seus três funcionários que iria analisar o problema e marcaria outra reunião para apresentar os resultados de sua análise.
+Oliveira prometeu a seus três funcionários que iria analisar o problema e marcaria outra reunião para apresentar os resultados de sua análise.
 Atribuição
 
-Você foi designado para comandar um grupo para investigar essa alegação de discriminação. Greer tem uma série de questões a serem resolvidas. Ele lhe deu acesso ao emprego e às séries históricas de remuneração dos funcionários do colégio. Estes dados estão contidos no arquivo Escola_Oliveira.xlsx. Você terá de analisar o emprego e a série de pagamentos históricos contidos neste arquivo e tentar resolver as questões apresentadas por Jão.
+Você foi designado para comandar um grupo para investigar essa alegação de discriminação. Oliveira tem uma série de questões a serem resolvidas. Ele lhe deu acesso ao emprego e às séries históricas de remuneração dos funcionários do colégio. Estes dados estão contidos no arquivo Escola_Oliveira.xlsx. Você terá de analisar o emprego e a série de pagamentos históricos contidos neste arquivo e tentar resolver as questões apresentadas por João.
 
-Com base em sua compreensão das questões e sua interpretação dos dados sobre o emprego e salário, escrever um breve relatório para o Mr. Greer resumindo sua opinião sobre a responsabilidade do Colégio e Curso Oliveira. Anexo algumas perguntas que irão guiar seu pensamento. Use detalhes importantes para sua análise para apoiar a sua recomendação. 
+Com base em sua compreensão das questões e sua interpretação dos dados sobre o emprego e salário, escrever um relatório para o Sr. Oliveira resumindo sua opinião sobre a responsabilidade do Colégio e Curso Oliveira. Anexo algumas perguntas que irão guiar seu pensamento. Use detalhes importantes para sua análise para apoiar a sua recomendação. 
 
 
-### 3.1. Estudo da discriminação racial na escola Oliveira.
+### 3.1. Implementação da análise da discriminação racial na escola Oliveira.
 
 O primeiro passo é a importação da base de dados. Essa base de dados está no formato excel e no formato csv. Conforme visto nos capítulos anteriores desse livro, podemos importar para o *R* com a função *read_excel* e *read_csv*. Para saber mais como importar arquivos, recomendo a você leitor que leia os capítulos (**CITAÇÃO DO TITULO DO CAPITULO DO FELIPE**). Também deixo o banco de dados disponível no github. Para acessa-lo, digite o código abaixo:
 
@@ -191,7 +200,7 @@ Nome_da_variavel=c('Grau de Pagamento','Gênero','Raça','Casado','Idade','Anos 
 Descricao_da_variavel=c(
 	'1 = Professor Assistente (Grau 1) \n 
 2 = Professor Adjunto (Grau 2)  \n
-3 = Professor Titular (Grau 3)','0 = Feminino\n 1 = Masculino','1 = Não Branco/Minoria (preto/pardo/indígena), \n 0 = Branco','0 = Não,\n 1 = Sim','Anos de idade do funcionário','Anos de trabalho como Professor(a)','Avaliação de desempenho do professor (escala de 0 a 10)'))
+3 = Professor Titular (Grau 3)','0 = Feminino\n 1 = Masculino','1 = Não Branco (preto/pardo/indígena), \n 0 = Branco','0 = Não,\n 1 = Sim','Anos de idade do funcionário','Anos de trabalho como Professor(a)','Avaliação de desempenho do professor (escala de 0 a 10)'))
 	
 ```
 
@@ -218,7 +227,7 @@ banco_de_dados$sexo<-ifelse(banco_de_dados$sexo==0,'Feminino',
                      ifelse(banco_de_dados$sexo==1,'Masculino',NA))
 
 banco_de_dados$raca<-ifelse(banco_de_dados$raca==0,'Branco',
-                     ifelse(banco_de_dados$raca==1,'Minoria',NA))
+                     ifelse(banco_de_dados$raca==1,'Não Branco',NA))
   
 banco_de_dados$casado<-ifelse(banco_de_dados$casado==0,'Não',
                        ifelse(banco_de_dados$casado==1,'Sim',NA))                         
@@ -249,7 +258,7 @@ banco_de_dados$salario[90]<- 2710
 
 ```
 
-Após o carregamento do banco de dados e do tratamento dos dados, precisamos construir um desenho de pesquisa e o relacionamento esperado entre as variáveis.
+Após o carregamento do banco de dados e do tratamento, precisamos construir um desenho de pesquisa e o relacionamento esperado entre as variáveis.
 
 O desenho de pesquisa poderia começar com algo simples o tipo:
 
@@ -296,6 +305,15 @@ Nesse momento, a pergunta é:
 
 Dado que existem dois professores com o mesmo tempo de empresa e no mesmo nível de grau de pagamento 1, qual a diferença de salario médio entre minoria e não minoria?  Em outras palavras, controlando pelas variáveis tempo de empresa e grau de pagamento, qual o impacto da variável da variável raça no salário?
 
+```{r}
+
+# nível com os gráficos do R-base 
+
+hist(banco_de_dados$salario)
+
+# nível avançado com uso do ggplot2
+
+```
 
 INSERIR AQUI OS GRAFICOS
 
@@ -312,7 +330,11 @@ com essa atividade, os alunos conseguiram fazer isso aquilo e isso outro falar q
 
 no futuro, buscarei colocar algumas variaveis irrelevantes para que o aluno possa separar variáveis pouco importantes de variáveis mais fundamentais
 
-\#\#Referências 1.Roesch, Sylvia Maria AzevedoNotas sobre a construção de casos para ensino. Revista de Administração Contemporânea [online]. 2007, v. 11, n. 2 [Acessado 27 Outubro 2021] , pp. 213-234. Disponível em: <https://doi.org/10.1590/S1415-65552007000200012>. Epub 18 Jan 2008. ISSN 1982-7849. <https://doi.org/10.1590/S1415-65552007000200012>.
+\#\#Referências 
+
+1.Roesch, Sylvia Maria Azevedo Notas sobre a construção de casos para ensino. Revista de Administração Contemporânea [online]. 2007, v. 11, n. 2 [Acessado 27 Outubro 2021] , pp. 213-234. Disponível em: <https://doi.org/10.1590/S1415-65552007000200012>. Epub 18 Jan 2008. ISSN 1982-7849. <https://doi.org/10.1590/S1415-65552007000200012>.
+
+2. D. Nolan and T.P. Speed Teaching Statistics Theory Through Applications, August 1999
 
 ```{=html}
 <!--
